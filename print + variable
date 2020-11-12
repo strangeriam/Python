@@ -1,4 +1,4 @@
-列印 City Amsterdam is in the country Netherlands
+目的: 列印 City Amsterdam is in the country Netherlands
 
 city = "Amsterdam"
 country = "Netherlands"
