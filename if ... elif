@@ -1,0 +1,29 @@
+Note: Python 沒有 switch.
+
+# if
+  if 條件式:
+      # 語句...
+    
+# if…else
+  if 條件式:
+      # 語句...
+  else:
+      # 語句...
+
+# if…elif
+  if 條件式 1:
+      # 語句...
+  elif 條件式 2:
+      # 語句...
+
+# if…elif…else
+  if 條件式 1:
+      # 語句...
+  elif 條件式 2:
+      # 語句...
+  elif 條件式 3:
+      # 語句...
+  .
+  .
+  else:
+      # 語句...
