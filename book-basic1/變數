@@ -1,0 +1,11 @@
+aaa = 40
+aaa
+# output: 40
+
+bbb = aaa + 2
+bbb
+# output: 42
+
+ccc = 30
+aaa + ccc
+# output: 70
