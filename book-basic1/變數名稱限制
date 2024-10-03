@@ -1,0 +1,8 @@
+變數名稱區分大小寫.
+
+1. 不能用 連字符號 "-" --> eg. aaa-bbb = 'world'
+2. 不能有 空格 " "     --> eg. aaa bbb = 'world'
+3. 不能以 數字開頭 0~9   --> eg. 8hello = 'world'
+4. 不能只 是數字         --> eg. 88 = 'world'
+5. 不能用 特殊字元 $     --> eg. total_$um = 'world'
+6. 不能用 特殊字元 ' '     --> eg. 'hello' = 'world'
