@@ -9,3 +9,7 @@ bbb
 ccc = 30
 aaa + ccc
 # output: 70
+
+ccc = aaa + ccc
+ccc
+# output: 70
