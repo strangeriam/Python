@@ -6,3 +6,5 @@
 4. 不能只 是數字         --> eg. 88 = 'world'
 5. 不能用 特殊字元 $     --> eg. total_$um = 'world'
 6. 不能用 特殊字元 ' '     --> eg. 'hello' = 'world'
+
+7. 不能用 True & False
