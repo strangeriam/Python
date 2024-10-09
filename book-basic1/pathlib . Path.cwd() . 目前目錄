@@ -1,0 +1,9 @@
+
+## 取得目前所在工作目錄.
+>>>
+>>> from pathlib import Path
+>>> import os
+>>> Path.cwd()
+WindowsPath('C:/Users/Rlulu/AppData/Local/Programs/Python/Python311')
+>>>
+
