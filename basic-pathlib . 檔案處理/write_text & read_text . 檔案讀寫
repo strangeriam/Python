@@ -1,0 +1,8 @@
+>>>
+>>> newP = Path('C:\\Users\\Rlulu\\Dropbox\\12-Office-TryTryLu\\Learning_02_Python\\new
+Dir1')
+>>> newP.write_text('Hello, World')
+12
+>>> newP.read_text()
+'Hello, World'
+>>>
