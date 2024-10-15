@@ -15,7 +15,7 @@ import os
 >>>
 
 # 切換工作目錄
->>> os.chdir('D:\\Dropbox\\12-Office-TryTryLu\\Learning_02_Python')
+>>> os.chdir(reportPath)
 >>>
 
 # 查看目前工作目錄
