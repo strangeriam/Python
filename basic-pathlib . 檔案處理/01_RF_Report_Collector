@@ -1,6 +1,19 @@
 from pathlib import Path
 import os
 
+# 新增變數, Report 檔名.
+>>> reportFile = ('Log_1_EC2436004465.csv')
+>>> reportFile
+'Log_1_EC2436004465.csv'
+>>>
+
+# 新增變數, Report 所在路徑.
+>>> reportPath = ('D:\\Dropbox\\12-Office-TryTryLu\\Learning_02_Python')
+>>>
+>>> reportPath
+'D:\\Dropbox\\12-Office-TryTryLu\\Learning_02_Python'
+>>>
+
 # 切換工作目錄
 >>> os.chdir('D:\\Dropbox\\12-Office-TryTryLu\\Learning_02_Python')
 >>>
