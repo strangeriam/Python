@@ -1,0 +1,11 @@
+from pathlib import Path
+import os
+
+# 切換工作目錄
+>>> os.chdir('D:\\Dropbox\\12-Office-TryTryLu\\Learning_02_Python')
+>>>
+
+# 查看目前工作目錄
+>>> Path.cwd()
+WindowsPath('D:/Dropbox/12-Office-TryTryLu/Learning_02_Python')
+>>>
