@@ -5,3 +5,13 @@
 >>>
 >>> for row in exampleReader:
 ... print('Row #' + str(exampleReader.line_num) + ' ' + str(row))
+
+
+輸出
+Row #1 ['10/16/2024 09:22', 'Apples', '73']
+Row #2 ['10/16/2014 11:33', 'Cherries', '85']
+Row #3 ['10/17/2024 12:46', 'Pears', '14']
+Row #4 ['10/18/2024 8:59', 'Orangers', '52']
+Row #5 ['10/20/2024 18:10', 'Bananas', '23']
+Row #6 ['10/20/2024 2:40', 'Strawberries', '98']
+>>> 
