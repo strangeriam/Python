@@ -1,3 +1,6 @@
+reader 物件只能迴圈 1 次.
+若要在讀取 csv, 則需要呼叫 csv.reader 來建立 reader 物件.
+
 >>> import csv
 
 >>> exampleFile = open('D:\\Dropbox\\12-Office-TryTryLu\\Learning_02_Python\\example.csv')
