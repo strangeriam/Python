@@ -9,5 +9,11 @@ csv 模組是 Python 內建, 不須再安裝, 就可直接匯入.
 10/20/2024 18:10,Bananas,23
 10/20/2024 2:40,Strawberries,98
 
-
-
+>>>
+>>> import csv
+>>> exampleFile = open('example.csv')
+>>> exampleReader = csv.reader(exampleFile)
+>>> exampleData = list(exampleReader)
+>>> exampleData
+[['10/16/2024 09:22', 'Apples', '73'], ['10/16/2014 11:33', 'Cherries', '85'], ['10/17/2024 12:46', 'Pears', '14'], ['10/18/2024 8:59', 'Orangers', '52'], ['10/20/2024 18:10', 'Bananas', '23'], ['10/20/2024 2:40', 'Strawberries', '98']]
+>>>
