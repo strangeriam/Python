@@ -37,3 +37,5 @@ Step 03: 檔案讀取
 >>> reportContent = report_content.read()
 >>> reportContent
 'Satrt Time, 2024/09/18 16:44:03,,,\nTitle,ATC_CONNECT_TESTER,ATC_INSERT_DUT,ATC_INITIALIZE_DUT,ATC_INITIALIZE_DUT, (以下捨去)
+>>>
+>>>
