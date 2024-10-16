@@ -1,5 +1,7 @@
 >>> import csv
 
 >>> exampleFile = open('D:\\Dropbox\\12-Office-TryTryLu\\Learning_02_Python\\example.csv')
-
-
+>>> exampleReader = csv.reader(exampleFile)
+>>>
+>>> for row in exampleReader:
+... print('Row #' + str(exampleReader.line_num) + ' ' + str(row))
