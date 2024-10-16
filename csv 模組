@@ -29,3 +29,12 @@ csv 模組是 Python 內建, 不須再安裝, 就可直接匯入.
 >>> exampleData[0][1]
 'Apples'
 >>>
+>>> exampleData[0][2]
+'73'
+>>>
+>>> exampleData[1][1]
+'Cherries'
+>>>
+>>> exampleData[5][1]
+'Strawberries'
+>>>
