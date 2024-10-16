@@ -12,6 +12,8 @@ csv 模組是 Python 內建, 不須再安裝, 就可直接匯入.
 >>>
 >>> import csv
 >>> exampleFile = open('example.csv')
+
+不能將檔名字串餵給 csv.reader() 函式.
 >>> exampleReader = csv.reader(exampleFile)
 >>> exampleData = list(exampleReader)
 >>> exampleData
