@@ -1,5 +1,7 @@
-
+>>> import os
 >>> os.chdir('C:\\Windows\\System32')
+
+>>> 
 >>> Path.cwd()
 WindowsPath('C:/Windows/System32')
 >>>
