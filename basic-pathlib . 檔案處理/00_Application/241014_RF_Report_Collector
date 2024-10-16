@@ -1,22 +1,26 @@
+條件
+檔名: Log_1_EC2436004465.csv
+路徑: D:\\Dropbox\\12-Office-TryTryLu\\Learning_02_Python
+
 from pathlib import Path
 import os
 
 Step 01: 新增變數
 Report 檔名.
->>> reportFile = ('Log_1_EC2436004465.csv')
->>> reportFile
+>>> report_file = ('Log_1_EC2436004465.csv')
+>>> report_file
 'Log_1_EC2436004465.csv'
 >>>
 
 Report 所在路徑.
->>> reportPath = ('D:\\Dropbox\\12-Office-TryTryLu\\Learning_02_Python')
+>>> report_path = ('D:\\Dropbox\\12-Office-TryTryLu\\Learning_02_Python')
 >>>
->>> reportPath
+>>> report_path
 'D:\\Dropbox\\12-Office-TryTryLu\\Learning_02_Python'
 >>>
 
 Step 02: 切換工作目錄
->>> os.chdir(reportPath)
+>>> os.chdir(report_path)
 >>>
 
 查看目前工作目錄
@@ -25,9 +29,11 @@ WindowsPath('D:/Dropbox/12-Office-TryTryLu/Learning_02_Python')
 >>>
 
 Step 03: 檔案讀取
->>> reportContent = open('C:\\Users\\Rlulu\\Dropbox\\12-Office-TryTryLu\\Learning_02_Python\\newDir1.txt')
+>>> report_content = open(Path(report_path) / Path(report_file))
 >>>
->>> helloContent = helloFile.read()
->>> helloContent
-'Papa I love U'
+>>> report_content
+<_io.TextIOWrapper name='D:\\Dropbox\\12-Office-TryTryLu\\Learning_02_Python\\Log_1_EC2436004465.csv' mode='r' encoding='cp950'>
 >>>
+>>> reportContent = report_content.read()
+>>> reportContent
+'Satrt Time, 2024/09/18 16:44:03,,,\nTitle,ATC_CONNECT_TESTER,ATC_INSERT_DUT,ATC_INITIALIZE_DUT,ATC_INITIALIZE_DUT, (以下捨去)
