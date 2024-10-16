@@ -2,8 +2,8 @@
 檔名: Log_1_EC2436004465.csv
 路徑: D:\\Dropbox\\12-Office-TryTryLu\\Learning_02_Python
 
-from pathlib import Path
-import os
+>>> from pathlib import Path
+>>> import os
 
 Step 01: 新增變數
 Report 檔名.
