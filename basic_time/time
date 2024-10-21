@@ -7,7 +7,21 @@ time.time() 函式會返回從那一刻起的秒數.
 1729469690.5031908
 >>>
 
-# Example code
+# Example
+stage 1:
+    定義 calcProd() 函式.
+    以迴圈巡遍 1 到 99999 的整數.
+    返回他們相乘的積.
+stage 2:
+    呼叫 time.time(), 將結果存放 startTime.
+    呼叫 calcProd()
+    呼叫 time.time(), 將結果存放 endTime.
+stage 3:
+    印出 calcProd(), 返回乘積的長度.
+stage 4:
+    印出 執行 calcProd() 所花費的時間.
+
+# Example code 
 import time
 
 def calcProd():
