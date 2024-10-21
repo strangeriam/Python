@@ -1,12 +1,8 @@
 
 
-
 >>> import time
 >>>
 >>> time.ctime()
 'Mon Oct 21 08:49:12 2024'
 >>>
->>> thisMoment = time.time()
->>> time.ctime(thisMoment)
-'Mon Oct 21 08:49:25 2024'
->>>
+
