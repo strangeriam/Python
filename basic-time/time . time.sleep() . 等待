@@ -1,4 +1,10 @@
 ## Example Code 1
+for 迴圈會
+印出 Tick, 暫停 1 秒.
+印出 Tock, 暫停 1 秒.
+再印出 Tink, 暫停 .... 依此類推,
+直到 Tick 和 Tock 都印出 3 次.
+
 import time
 for i in range(3):
     print('Tick')
