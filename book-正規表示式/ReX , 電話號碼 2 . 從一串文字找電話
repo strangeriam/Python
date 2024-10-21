@@ -1,15 +1,3 @@
-寫一個名為 isPhoneNumber() 的函式,
-用來檢查字串在比對時是否符合此模式,
-然後返回 True 或 False.
-
-電話號碼: 415-555-4242
-check 1: 檢查是否剛好 12 個字元.
-check 2: 檢查區碼, text 的前 3 個字元是否為數字.
-check 3: 號碼要在區碼後, 出現一個連字符號.
-check 4: 再 3 個數字.
-check 5: 另一個連字符號.
-check 6: 最後是 4 個數字.
-result: 如果都通過所有檢查, 則返回 True.
 
 ## Example Code
 
@@ -33,14 +21,12 @@ def isPhoneNumber(text):
       return False
     return True
 
-print('415-555-4242 is phone number:')
-print(isPhoneNumber('415-555-4242'))
-print('Moshi moshi is a phone number:')
-print(isPhoneNumber('Moshi moshi'))
+message = 'Call me at 415-555-1011 tomorrow. 415-555-9999 is my office.'
+
+for i in range(len(message)):
+  chunk = message[i:i+12]
+  if isPhoneNumber(chunk):
+    print('Phone number found: ' + chunk)
+print('Done')
 
 ## 輸出
-415-555-4242 is phone number:
-True
-Moshi moshi is a phone number:
-False
->>> 
