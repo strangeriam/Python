@@ -7,8 +7,6 @@ time.time() 函式會返回從那一刻起的秒數.
 1729469690.5031908
 >>>
 
-
-
 # Example code
 import time
 
