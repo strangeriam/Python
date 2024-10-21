@@ -1,4 +1,8 @@
 
+找出所有 電話號碼
+415-555-1011
+415-555-9999
+
 ## Example Code
 
 def isPhoneNumber(text):
@@ -30,3 +34,7 @@ for i in range(len(message)):
 print('Done')
 
 ## 輸出
+Phone number found: 415-555-1011
+Phone number found: 415-555-9999
+Done
+>>> 
