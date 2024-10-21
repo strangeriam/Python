@@ -34,5 +34,5 @@ def calcProd():
 startTime = time.time()
 prod = calcProd()
 endTime = calcProd()
-piint('The result is %s digits long.' % (len(str(prod))))
+print('The result is %s digits long.' % (len(str(prod))))
 print('Took %s seconds to calculate.' % (endTime - startTime))
