@@ -4,3 +4,7 @@ search()
 
 Match 物件 group()
     返回被尋找字串中符合文字.
+
+phoneNumRegex = re.compile(r'\d\d\d-\d\d\d-\d\d\d\d')
+mo = phoneNumRegex.search('My number is 415-555-4242.')
+print('Phone number found: ' + mo.group())
