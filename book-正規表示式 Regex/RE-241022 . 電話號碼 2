@@ -13,7 +13,11 @@ print('Phone number found: ' + mo.group())
 Phone number found: 415-555-4242
 
 
-Learning B: 把區域碼從電話號碼中分開. (\d\d\d)-(\d\d\d-\d\d\d\d)
+Learning B:
+
+把區域碼從電話號碼中分開.
+(\d\d\d)-(\d\d\d-\d\d\d\d)
+分組: (第一組)-(第二組)
 ## =======================
 import re
 
