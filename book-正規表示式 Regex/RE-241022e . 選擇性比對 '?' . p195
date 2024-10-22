@@ -1,7 +1,13 @@
 ? 表示它前面的括號分組在這模式中是 可選擇性的.
 
+Learning A: Batman or Batwoman
+Learning B: 電話號碼, 有區號, 沒有區號.
 
-# (wo)? 是可選擇性的, wo 是否出現都可以.
+## ========================================
+Learning A: Batman or Batwoman
+(wo)? 是可選擇性的, wo 是否出現都可以.
+## ========================================
+
 batRegex = re.compile(r'Bat(wo)?man')
 mo1 = batRegex.search('The Adventures of Batman')
 mo1.group()
@@ -12,3 +18,8 @@ mo2 = batRegex.search('The Adventures of Batwoman')
 mo2.group()
 輸出:
 'Batwoman'
+
+
+## ========================================
+Learning B: 電話號碼, 有區號, 沒有區號.
+## ========================================
