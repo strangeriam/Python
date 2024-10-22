@@ -48,6 +48,20 @@ mo.group()
 
 ## =======================
 Learning C: 使用 groups()
+
+可多重指定, 將每個值指定給獨立變數. eg. areaCode, mainNumber
 ## =======================
 
+mo.groups()
+輸出:
+('415', '555-4242')
+
+areaCode, mainNumber = mo.groups()
+print(areaCode)
+輸出:
+415
+
+print(mainNumber)
+輸出:
+555-4242
 
