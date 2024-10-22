@@ -29,4 +29,14 @@ mo2.group()
 ## =======================================
 
 batRegex = re.compile(r'Bat(man|mobile|copter|bat)')
+mo = batRegex.search('Batmobile lost a wheel')
 
+# 返回完整比對符合的文字 'Batmobile'.
+mo.group()
+輸出:
+'Batmobile'
+
+# 只要返回第 1 個括號分組比對符合的文字 'mobile'
+mo.group(1)
+輸出:
+'mobile'
