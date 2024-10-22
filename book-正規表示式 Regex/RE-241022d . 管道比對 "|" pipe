@@ -1,3 +1,12 @@
+
+Learning A: 第一次比對符合, 當成 Match 物件返回.
+Learning B: 多個模式比對.
+
+
+## =======================================
+Learning A: 第一次比對符合, 當成 Match 物件返回.
+## =======================================
+
 import re
 
 heroRegex = re.compile(r'Batman|Tina Fey')
@@ -12,4 +21,12 @@ mo2.group()
 
 輸出:
 'Tina Fey'
+
+## =======================================
+多個模式比對
+以下字串, 以 Bat 開頭, 任何一個符合.
+'Batman' 'Batmobile' 'Batcopter' 'Batbat'
+## =======================================
+
+batRegex = re.compile(r'Bat(man|mobile|copter|bat)')
 
