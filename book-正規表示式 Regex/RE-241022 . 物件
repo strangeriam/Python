@@ -1,1 +1,6 @@
 search()
+    沒找到符合, 返回 None.
+    找到符合, 返回 Match 物件.
+
+Match 物件 group()
+    返回被尋找字串中符合文字.
