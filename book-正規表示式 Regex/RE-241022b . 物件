@@ -1,3 +1,10 @@
+
+search()
+group()
+groups()
+findall()
+
+
 search()
     沒找到符合, 返回 None.
     找到符合, 返回 Match 物件.
@@ -11,3 +18,5 @@ print('Phone number found: ' + mo.group())
 
 輸出:
 Phone number found: 415-555-4242
+
+
