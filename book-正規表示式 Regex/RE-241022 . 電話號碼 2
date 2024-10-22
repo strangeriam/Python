@@ -1,7 +1,11 @@
 Learning A: 找出電話號碼.
-Learning B: 把區域碼從電話號碼中分開.
+Learning B: 把區域碼從電話號碼中分開. 使用 group()
+Learning C: 把區域碼從電話號碼中分開. 使用 groups()
 
-Learning A: 找出電話號碼.
+## =======================
+Learning A:
+
+找出電話號碼.
 ## =======================
 import re
 
@@ -13,12 +17,14 @@ print('Phone number found: ' + mo.group())
 Phone number found: 415-555-4242
 
 
-Learning B:
+## =======================
+Learning B: 使用 group()
 
 把區域碼從電話號碼中分開.
 (\d\d\d)-(\d\d\d-\d\d\d\d)
 分組: (第一組)-(第二組)
 ## =======================
+
 import re
 
 phoneNumRegex = re.compile(r'(\d\d\d)-(\d\d\d-\d\d\d\d)')
@@ -39,3 +45,9 @@ mo.group(0)
 mo.group()
 輸出:
 '415-555-4242'
+
+## =======================
+Learning C: 使用 groups()
+## =======================
+
+
