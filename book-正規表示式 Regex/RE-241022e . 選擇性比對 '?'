@@ -1,1 +1,14 @@
 ? 表示它前面的括號分組在這模式中是 可選擇性的.
+
+
+# (wo)? 是可選擇性的, wo 是否出現都可以.
+batRegex = re.compile(r'Bat(wo)?man')
+mo1 = batRegex.search('The Adventures of Batman')
+mo1.group()
+輸出:
+'Batman'
+
+mo2 = batRegex.search('The Adventures of Batwoman')
+mo2.group()
+輸出:
+'Batwoman'
