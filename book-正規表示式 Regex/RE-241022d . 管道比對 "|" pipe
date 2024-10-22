@@ -7,6 +7,9 @@ mo1.group()
 輸出:
 'Batman'
 
+mo2 = heroRegex.search('Tina Fey and Batman.')
+mo2.group()
 
-
+輸出:
+'Tina Fey'
 
