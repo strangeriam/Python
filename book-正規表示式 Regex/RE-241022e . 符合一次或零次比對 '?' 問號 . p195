@@ -7,6 +7,7 @@ Learning B: 電話號碼, 有區號, 沒有區號.
 Learning A: Batman or Batwoman
 (wo)? 是可選擇性的, wo 是否出現都可以.
 ## ========================================
+import re
 
 batRegex = re.compile(r'Bat(wo)?man')
 mo1 = batRegex.search('The Adventures of Batman')
@@ -23,6 +24,7 @@ mo2.group()
 ## ========================================
 Learning B: 電話號碼, 有區號, 沒有區號.
 ## ========================================
+import re
 
 phoneRegex = re.compile(r'(\d\d\d-)?\d\d\d-\d\d\d\d')
 mo1 = phoneRegex.search('My number is 415-555-4242')
