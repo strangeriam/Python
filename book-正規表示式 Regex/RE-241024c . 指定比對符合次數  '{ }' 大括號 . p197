@@ -1,1 +1,22 @@
-AAA
+
+Learning A: {3} ... 大括號中填入比對次數, 此例比對 3 次.
+Learning B: {3,5} . 指定範圍 {最小值,最大值}.
+Learning C: {,5} .. 符合 5 次以內.
+
+
+
+## ========================================
+Learning A: {3} ... 大括號中填入比對次數, 此例比對 3 次.
+## ========================================
+import re
+
+haRegex = re.compile(r'(Ha){3}')
+mo1 = haRegex.search('HaHaHa')
+mo1.group()
+
+輸出: 'HaHaHa'
+
+mo2 = haRegex.search('Ha')
+mo2 == None
+
+輸出: True
