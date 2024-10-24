@@ -8,6 +8,30 @@ Learning A:
 ## ========================================
 import re
 
+batRegex = re.compile(r'Bat(wo)+man')
+mo1 = batRegex.search('The Adventures of Batwoman')
+mo1.group()
 
+輸出: 'Batwoman'
+說明:
 
+## ========================================
+Learning B: 
+## ========================================
+import re
 
+mo2 = batRegex.search('The Adventures of Batwowowowoman')
+mo2.group()
+
+輸出: 'Batwowowowoman'
+說明:
+
+## ========================================
+Learning C: 
+## ========================================
+import re
+
+mo3 = batRegex.search('The Adventures of Batman')
+mo3 == None
+
+輸出: True
