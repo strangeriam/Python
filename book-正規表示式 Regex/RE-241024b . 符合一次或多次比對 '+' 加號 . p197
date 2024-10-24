@@ -1,11 +1,8 @@
 '+' 必須至少出現一次. 這不是可選擇性的.
 
-Learning A: 
-Learning B: 
+以下程式說明:
+正規表示式 Bat(wo)+man 比對 'The Adventures of Batman' 時找不到符合, 因為至少要出現一次, 所以返回 None.
 
-## ========================================
-Learning A: 
-## ========================================
 import re
 
 batRegex = re.compile(r'Bat(wo)+man')
@@ -13,23 +10,11 @@ mo1 = batRegex.search('The Adventures of Batwoman')
 mo1.group()
 
 輸出: 'Batwoman'
-說明:
-
-## ========================================
-Learning B: 
-## ========================================
-import re
 
 mo2 = batRegex.search('The Adventures of Batwowowowoman')
 mo2.group()
 
 輸出: 'Batwowowowoman'
-說明:
-
-## ========================================
-Learning C: 
-## ========================================
-import re
 
 mo3 = batRegex.search('The Adventures of Batman')
 mo3 == None
