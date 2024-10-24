@@ -1,27 +1,38 @@
 ? 表示它前面的括號分組在這模式中是 可選擇性的.
 
-Learning A:
-Learning B:
+Learning A: 正規表示式 (wo)* 比對 wo 的結果為 0.
+Learning B: 正規表示式 (wo)* 比對 wo 的結果為 1.
+Learning C: 正規表示式 (wo)* 比對 wo 的結果為 4.
 
 ## ========================================
-
+Learning A: 正規表示式 (wo)* 比對 wo 的結果為 0.
 ## ========================================
-
 import re
 
 batRegex = re.compile(r'Bat(wo)*man')
 mo1 = batRegex.search('The Adventures of Batman')
 mo1.group()
-輸出:
-'Batman'
+輸出: 'Batman'
+說明: 正規表示式 (wo)* 比對 wo 的結果為 0.
+
+
+## ========================================
+Learning B: 正規表示式 (wo)* 比對 wo 的結果為 1.
+## ========================================
+import re
 
 mo2 = batRegex.search('The Adventures of Batwoman')
 mo2.group()
-輸出:
-'Batwoman'
+輸出: 'Batwoman'
+說明: 正規表示式 (wo)* 比對 wo 的結果為 1.
+
+
+## ========================================
+Learning C: 正規表示式 (wo)* 比對 wo 的結果為 4.
+## ========================================
+import re
 
 mo3 = batRegex.search('The Adventures of Batwowowowoman')
 mo3.group()
-輸出:
-'Batwowowowoman'
-
+輸出: 'Batwowowowoman'
+說明: 正規表示式 (wo)* 比對 wo 的結果為 4.
