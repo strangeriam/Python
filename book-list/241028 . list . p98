@@ -42,3 +42,16 @@ spam[1][4]
 輸出:
 50
 
+== 方式 4 . 負數值索引 ==
+spam = ['cat', 'bat', 'rat', 'elephant']
+spam[-1]
+輸出:
+'elephant'
+
+spam[-3]
+輸出:
+'bat'
+
+'The ' + spam[-1] + ' is afraid of the ' + spam[-3] + '.'
+輸出:
+'The elephant is afraid of the bat.'
