@@ -1,0 +1,15 @@
+[1, 2, 3]
+輸出:
+[1, 2, 3]
+
+['cat', 'bat', 'rat', 'elephant']
+輸出:
+['cat', 'bat', 'rat', 'elephant']
+
+spam = ['cat', 'bat', 'rat', 'elephant']
+輸出:
+['cat', 'bat', 'rat', 'elephant']
+
+spam[0]
+輸出:
+'cat'
