@@ -1,9 +1,15 @@
-ENVPATH = 'D:/Dropbox/12-Office-Sync-MTS/33_ReportGenerator/021_RF_IQ_V7_Py/'
+from pathlib import Path
 
-source_file = ENVPATH + 'sourceFile/Log_all_simple.csv'
-target_tx = ENVPATH + 'report/reportTX.csv'
+ENVPATH = 'D:/Dropbox/12-Office-Sync-MTS/33_ReportGenerator/021_RF_IQ_V7_Py/'
+source_file = Path(ENVPATH + 'sourceFile/Log_all_simple.csv')
+target_file = Path(ENVPATH + 'report/reportTX.csv')
 
 infile = open(source_file)
 all = infile.read()
 
+## Write report.
+target_file.write_text(all)
+
+## Read report.
+target_file.read_text()
 
