@@ -1,11 +1,4 @@
-[1, 2, 3]
-輸出:
-[1, 2, 3]
-
-['cat', 'bat', 'rat', 'elephant']
-輸出:
-['cat', 'bat', 'rat', 'elephant']
-
+方式 1:
 spam = ['cat', 'bat', 'rat', 'elephant']
 輸出:
 ['cat', 'bat', 'rat', 'elephant']
@@ -13,3 +6,20 @@ spam = ['cat', 'bat', 'rat', 'elephant']
 spam[0]
 輸出:
 'cat'
+
+spam[1]
+輸出:
+'bat'
+
+'Hello ' + spam[0]
+輸出:
+'Hello cat'
+
+'The ' + spam[1] + ' ate the ' + spam[0] + '.'
+輸出:
+'The bat ate the cat.'
+
+方式 2:
+['cat', 'bat', 'rat', 'elephant'][2]
+輸出:
+'rat'
