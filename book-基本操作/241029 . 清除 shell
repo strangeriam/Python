@@ -1,15 +1,11 @@
-== A . 讀取 Python 版本 (Windows 10)
-CMD: python --version
-Output: Python 3.11.3
-
-== B. 清除 shell
+== A.
 >>> print("\n" * 100)
 
-== C. 清除 shell
+== B.
 import os
 os.system('cls||clear')
 
-== D. 清除 shell
+== C.
 import subprocess, platform
 
 if platform.system()=="Windows":
