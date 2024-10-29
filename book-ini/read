@@ -9,7 +9,6 @@ SOURCE_FILE=Log_all_simple.csv
 ## ======================================
 ENVPATH = 'D:/Dropbox/12-Office-Sync-MTS/33_ReportGenerator/021_RF_IQ_V7_Py/'
 
-
 import configparser
 
 # 建立物件 configparser 
@@ -17,14 +16,12 @@ config = configparser.ConfigParser()
 
 
 # 讀取 ini 檔
-config.read('ini路徑', encoding='utf-8')
+config.read(ENVPATH + 'setup.ini', encoding='utf-8')
 
-# 獲取 Section1 中的 Key1 和 Key2 的值
-value1 = config['owner']['name']
-value2 = config['owner']['age']
+# 獲取 SOURCE_FILE 中 Log_all_simple.csv
+modelname = config['CFG']['MODEL']
+filename = config['CFG']['SOURCE_FILE']
 
-print(f"name 的值：{value1}")  
-print(f"age 的值：{value2}")  
-
-print(f"name 的格式：{type(value1)}")  
-print(f"age 的格式：{type(value2)}") 
+print('Model name is ' + modelname + ' and ' + 'Filename is ' + filename)
+輸出:
+Model name is EAP111 and Filename is Log_all_simple.csv
