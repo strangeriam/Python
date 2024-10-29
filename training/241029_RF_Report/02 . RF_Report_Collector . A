@@ -7,6 +7,26 @@ target_file = Path(ENVPATH + 'report/reportTX.csv')
 infile = open(source_file)
 all = infile.read()
 
+import re
+
+titlelist = re.compile(r'Title,.*')
+TitleList = titlelist.search(all)
+TitleList.group()
+
+conditionlist = re.compile(r'Condition,.*')
+ConditionList = conditionlist.search(all)
+ConditionList.group()
+
+namelist = re.compile(r'Name,.*')
+NameList = namelist.search(all)
+NameList.group()
+
+valuelist = re.compile(r'Value,.*')
+ValueList = valuelist.search(all)
+ValueList.group()
+
+
+
 ## Write report.
 target_file.write_text(all)
 
