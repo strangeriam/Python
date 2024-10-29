@@ -30,10 +30,13 @@ spam = ['cat', 'bat', 'rat', 'elephant']
 spam[:2]
 輸出:
 ['cat', 'bat']
+--> 相當於 spam[0:2]
+--> 從 0 個開始, 共取 2 個.
 
 spam[1:]
 輸出:
 ['bat', 'rat', 'elephant']
+相當於 spam[1:]
 
 spam[:]
 輸出:
