@@ -1,0 +1,10 @@
+from pathlib import Path
+import os
+
+ENVPATH = 'D:/Dropbox/12-Office-Sync-MTS/33_ReportGenerator/021_RF_IQ_V7_Py/'
+
+source_file = ENVPATH + 'source_file/Log_all_simple.csv'
+reportFileTX = ENVPATH + 'report/reportTX.csv'
+
+os.chdir(ENVPATH)
+Path.cwd()
