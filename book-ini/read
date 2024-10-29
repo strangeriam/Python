@@ -1,10 +1,12 @@
 
 ## filename: setup.ini
+## example content
+
 [CFG]
 MODEL=EAP111
 SOURCE_FILE=Log_all_simple.csv
 
-
+## ======================================
 
 import configparser
 
