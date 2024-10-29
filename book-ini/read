@@ -7,6 +7,8 @@ MODEL=EAP111
 SOURCE_FILE=Log_all_simple.csv
 
 ## ======================================
+ENVPATH = 'D:/Dropbox/12-Office-Sync-MTS/33_ReportGenerator/021_RF_IQ_V7_Py/'
+
 
 import configparser
 
