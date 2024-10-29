@@ -1,1 +1,26 @@
-AAA
+
+## filename: setup.ini
+[CFG]
+MODEL=EAP111
+SOURCE_FILE=Log_all_simple.csv
+
+
+
+import configparser
+
+# 建立物件 configparser 
+config = configparser.ConfigParser()
+
+
+# 讀取 ini 檔
+config.read('ini路徑', encoding='utf-8')
+
+# 獲取 Section1 中的 Key1 和 Key2 的值
+value1 = config['owner']['name']
+value2 = config['owner']['age']
+
+print(f"name 的值：{value1}")  
+print(f"age 的值：{value2}")  
+
+print(f"name 的格式：{type(value1)}")  
+print(f"age 的格式：{type(value2)}") 
