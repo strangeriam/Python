@@ -17,6 +17,4 @@ config['CFG']['MODEL'] = 'EAP999'
 # 寫入 ini
 with open(ENVPATH + 'setup.ini', 'w') as configfile:
     config.write(configfile)​
-    print("INI OK")
-
 
