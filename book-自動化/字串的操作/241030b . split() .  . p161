@@ -1,1 +1,3 @@
-AAA
+'My name is Lu'.split()
+輸出:
+['My', 'name', 'is', 'Lu']
