@@ -20,8 +20,8 @@ config.set('CFG', 'MODEL','EAP999')
 config.write(inifile.open("w"))
 
 
-## ======================================
 輸出
+## ======================================
 [CFG]
 model = EAP999
 source_file = Log_all_simple.csv
