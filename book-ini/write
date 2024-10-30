@@ -5,17 +5,17 @@ MODEL=EAP111
 SOURCE_FILE=Log_all_simple.csv
 
 ## ======================================
-ENVPATH = 'D:/Dropbox/12-Office-Sync-MTS/33_ReportGenerator/021_RF_IQ_V7_Py/'
-
+from pathlib import Path
 import configparser
 
 # 建立物件 configparser
 config = configparser.ConfigParser()
 
-config['CFG'] = {}
-config['CFG']['MODEL'] = 'EAP999'
+ENVPATH = 'D:/Dropbox/12-Office-Sync-MTS/33_ReportGenerator/021_RF_IQ_V7_Py/'
+inifile = Path(ENVPATH + 'setup.ini')
 
-# 寫入 ini
-with open(ENVPATH + 'setup.ini', 'w') as configfile:
-    config.write(configfile)​
-
+# Updating existing entry.
+# 內容會被轉換成小寫.
+config.read(inifile)
+config.set('CFG', 'MODEL','EAP999')
+config.write(inifile.open("w"))
