@@ -1,5 +1,7 @@
 Note 1: 支援 數值型 和 字串型 的串列.
 Note 2: 不能對有 數值 和 字串 的串列進行排序.
+Note 3: 字串排序, 依照 ASCII 順序來排.
+Note 4: 不是以字母 aA ~ zZ. 小寫 a 排在大寫 Z 的後面.
 
 # 正排序. 數值型, 由大至小.
 spam = [2, 5, 3.14, 1, -7]
@@ -8,7 +10,7 @@ spam
 輸出:
 [-7, 1, 2, 3.14, 5]
 
-# 正排序. 字串型, 字母 aA ~ zZ
+# 正排序. 字串型, 依照 ASCII
 spam = ['ants', 'cats', 'dogs', 'badgers', 'elephants']
 spam.sort()
 spam
@@ -29,3 +31,8 @@ spam.sort(reverse=True)
 spam
 輸出:
 ['elephants', 'dogs', 'cats', 'badgers', 'ants']
+
+# 依照 ASCII
+spam = ['Alice', 'ants', 'Bob', 'badgers', 'Carol', 'cats']
+輸出:
+['Alice', 'Bob', 'Carol', 'ants', 'badgers', 'cats']
