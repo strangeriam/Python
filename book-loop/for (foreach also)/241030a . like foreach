@@ -1,0 +1,2 @@
+for val in array:
+    print(val)
