@@ -1,1 +1,7 @@
-remove()
+spam = ['cat', 'bat', 'rat', 'elephant']
+
+spam.remove('bat')
+spam
+
+輸出:
+['cat', 'rat', 'elephant']
