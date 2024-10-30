@@ -1,3 +1,3 @@
-== A . 讀取 Python 版本 (Windows 10)
+(for Windows 10)
 CMD: python --version
 Output: Python 3.11.3
