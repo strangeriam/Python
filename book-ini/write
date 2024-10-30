@@ -9,7 +9,7 @@ ENVPATH = 'D:/Dropbox/12-Office-Sync-MTS/33_ReportGenerator/021_RF_IQ_V7_Py/'
 
 import configparser
 
-# 建立物件 configparser 
+# 建立物件 configparser
 config = configparser.ConfigParser()
 
 config['CFG']['MODEL'] = 'EAP999'
