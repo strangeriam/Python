@@ -12,6 +12,7 @@ import configparser
 # 建立物件 configparser
 config = configparser.ConfigParser()
 
+config['CFG'] = {}
 config['CFG']['MODEL'] = 'EAP999'
 
 # 寫入 ini
