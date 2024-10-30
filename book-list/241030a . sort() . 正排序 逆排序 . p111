@@ -7,7 +7,6 @@ spam
 輸出:
 [-7, 1, 2, 3.14, 5]
 
-
 # 正排序. 字串型, 字母 aA ~ zZ
 spam = ['ants', 'cats', 'dogs', 'badgers', 'elephants']
 spam.sort()
