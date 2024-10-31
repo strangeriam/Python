@@ -1,4 +1,4 @@
-while True
+while True:
   print('who are you?')
   name = input()
   if name != 'Lu':
