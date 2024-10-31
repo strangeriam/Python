@@ -2,3 +2,7 @@ for i in range(12, 16):
   print(i)
 
 輸出:
+12
+13
+14
+15
