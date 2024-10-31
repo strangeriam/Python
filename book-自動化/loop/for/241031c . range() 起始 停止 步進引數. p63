@@ -1,0 +1,14 @@
+
+## range() 起始 & 停止.
+for i in range(12, 16):
+  print(i)
+
+輸出:
+12
+13
+14
+15
+
+## range() 起始 & 停止 & 步進.
+for i in range(0, 10, 2):
+  print(i)
