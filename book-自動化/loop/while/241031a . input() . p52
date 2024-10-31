@@ -1,3 +1,7 @@
+程式不可使用 shell 一行一行執行, 要存成檔案 py 執行.
+或是使用 Mu (python IDE 整合式開發環境).
+
+## Example A
 name = ''
 
 while name != 'your name':
@@ -6,5 +10,11 @@ while name != 'your name':
 print('thank you')
 
 
-程式不可使用 shell 一行一行執行, 要存成檔案 py 執行.
-或是使用 Mu (python IDE 整合式開發環境).
+## Example B
+while True:
+  print('please type your name.')
+  name = input()
+  in name == "your name":
+    break
+print('thank you!')
+
