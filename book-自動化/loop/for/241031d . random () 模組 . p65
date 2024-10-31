@@ -1,0 +1,10 @@
+import random
+for i in range(5):
+  print(random.randint(1, 10))
+
+輸出:
+9
+4
+5
+1
+8
