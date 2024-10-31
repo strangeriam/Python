@@ -14,7 +14,7 @@ print('thank you')
 while True:
   print('please type your name.')
   name = input()
-  in name == "your name":
+  if name == "your name":
     break
 print('thank you!')
 
