@@ -1,6 +1,6 @@
 spam = {'color': 'red', 'age': '42'}
 
-## 方式 A.
+## values
 for v in spam.values():
   print(v)
 
@@ -9,7 +9,7 @@ red
 42
 >>> 
 
-## 方式 B.
+## keys
 for k in spam.keys():
   print(k)
 
@@ -18,5 +18,11 @@ color
 age
 >>> 
 
+## items
+for i in spam.items():
+  print(i)
 
-
+輸出:
+('color', 'red')
+('age', '42')
+>>> 
