@@ -1,2 +1,10 @@
-for val in array:
-    print(val)
+papa = ['a1', 'a2', 'a3']
+
+for var1 in papa:
+	print(var1)
+
+輸出:
+a1
+a2
+a3
+>>> 
