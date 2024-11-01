@@ -1,3 +1,7 @@
 陣列需用 大括弧 {}
 
+## Key: 'size' 'color' 'disposition'. (也可以使用任何 整數值)
+## Value: 'fat' 'gray' 'loud'.
+## 使用 Key 來取 Value.
+
 myCat = {'size': 'fat', 'color': 'gray', 'disposition': 'loud'}
