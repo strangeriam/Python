@@ -18,7 +18,7 @@ color
 age
 >>> 
 
-## items
+## items (keys - values)
 for i in spam.items():
   print(i)
 
