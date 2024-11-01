@@ -11,4 +11,4 @@ a3
 >>> 
 
 方式 B.
- = []
+price_list = [('mango', 100), ('Orange', 50), ('Guava', 30), ('tomato', 70)]
