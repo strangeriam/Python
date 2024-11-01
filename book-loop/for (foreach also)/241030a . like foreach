@@ -1,5 +1,6 @@
-papa = ['a1', 'a2', 'a3']
 
+方式 A.
+papa = ['a1', 'a2', 'a3']
 for var1 in papa:
 	print(var1)
 
@@ -8,3 +9,6 @@ a1
 a2
 a3
 >>> 
+
+方式 B.
+ = []
