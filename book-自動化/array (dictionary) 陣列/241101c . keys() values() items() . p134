@@ -14,3 +14,9 @@ for k in spam.keys():
   print(k)
 
 輸出:
+color
+age
+>>> 
+
+
+
