@@ -1,0 +1,6 @@
+spam = {'color': 'red', 'age': '42'}
+
+spam.keys()
+輸出:
+dict_keys(['color', 'age'])
+>>>
