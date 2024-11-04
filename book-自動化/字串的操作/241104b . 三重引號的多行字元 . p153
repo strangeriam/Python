@@ -1,0 +1,15 @@
+print('''Dear Lu,
+
+Eve's cat has been arrested for catnapping, cat burglary, and extortion.
+
+Sincerely,
+Bob''')
+
+輸出:
+Dear Lu,
+
+Eve's cat has been arrested for catnapping, cat burglary, and extortion.
+
+Sincerely,
+Bob
+>>> 
