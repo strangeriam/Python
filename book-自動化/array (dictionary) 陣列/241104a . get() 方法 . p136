@@ -1,0 +1,5 @@
+picnicItem = {'apples': 5, 'cups': 2}
+'I am bringing ' + str(picnicItem.get('cups', 0)) + ' cups.'
+輸出:
+'I am bringing 2 cups.'
+>>>
