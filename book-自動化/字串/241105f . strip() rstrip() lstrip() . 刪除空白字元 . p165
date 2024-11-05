@@ -8,5 +8,8 @@
 >>> spam.rstrip()
 '    Hello World'
 
+>>> spam = 'SpamSpamBaconSpamEggsSpamSpam'
+>>> spam.strip('ampS')
+'BaconSpamEggs'
 
 
