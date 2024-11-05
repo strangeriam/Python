@@ -18,3 +18,19 @@ strftime 指令 . 意義
 %S . 秒 . 00
 %p . PM . (AM or PM)
 %% . % . 字元
+
+
+import datetime
+
+nov5st = datetime.datetime(2024, 11, 5, 16, 47, 0)
+nov5st.strftime('%Y/%m/%d %H:%M:%S')
+輸出: '2024/11/05 16:47:00'
+
+nov5st.strftime('%I:%M %p')
+輸出: '04:47 PM'
+
+nov5st.strftime("%B of '%y")
+輸出: "November of '24"
+
+
+
