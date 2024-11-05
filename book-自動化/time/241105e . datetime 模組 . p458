@@ -1,4 +1,11 @@
+import datetime
 
+datetime.datetime.now()
+輸出: datetime.datetime(2024, 11, 5, 14, 11, 49, 935071)
 
->>> import time
+dt = datetime.datetime(2024, 11, 5, 14, 11, 49, 0)
+dt.year, dt.month, dt.day
+輸出: (2024, 11, 5)
 
+dt.hour, dt.minute, dt.second
+輸出: (14, 11, 49)
