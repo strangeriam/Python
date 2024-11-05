@@ -1,4 +1,0 @@
-import time
-
-time.time()
-輸出: 1730786109.1281333
