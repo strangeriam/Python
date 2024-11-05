@@ -1,3 +1,24 @@
+筆記日期: 2024 年 11 月 5 日 . 16 點 47 分 0 秒 . 星期二
+
+strftime 指令 . 意義
+%Y . 年 . 2024
+%y . 年 . 24
+%m . 月 . 11
+%B . 月 . November
+%b . 月 . Nov
+%d . 日 . 5
+%j . 一年的第幾天
+
+%w . 星期 . 2 (0 Sunday ~ 6 Saturday)
+%A . 星期 . Tuesday
+%a . 星期 . Thu
+%H . 時 . 16 (24 小時制)
+%I . 時 . 4 (12 小時制)
+%M . 分 . 47
+%S . 秒 . 00
+%p . PM . (AM or PM)
+%% . % . 字元
+
 import datetime
 
 datetime.datetime.strptime('Nov')
