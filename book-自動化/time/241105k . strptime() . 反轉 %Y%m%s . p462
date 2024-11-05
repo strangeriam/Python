@@ -1,3 +1,4 @@
 import datetime
 
-datetime.datetime.strptime()
+datetime.datetime.strptime('Nov')
+(2024, 11, 5, 16, 47, 0)
