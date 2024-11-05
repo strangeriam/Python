@@ -9,3 +9,4 @@ delta.total_seconds()
 
 str(delta)
 輸出: '11 days, 10:09:08'
+
