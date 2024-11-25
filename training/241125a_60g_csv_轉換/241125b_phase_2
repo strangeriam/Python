@@ -1,7 +1,7 @@
 from pathlib import Path
 import csv
 
-fname = Path(r'D:\Dropbox\12-Office-Sync-MTS\32_POWERFUL_60G\POWERFUL_60G_V4\60g\BrdCSV_TestPlan\0xA021_qca_deg_1.csv')
+# fname = Path(r'D:\Dropbox\12-Office-Sync-MTS\32_POWERFUL_60G\POWERFUL_60G_V4\60g\BrdCSV_TestPlan\0xA021_qca_deg_1.csv')
 fname = Path(r'D:\Dropbox\12-Office-Sync-MTS\32_POWERFUL_60G\POWERFUL_60G_V4\60g\BrdCSV_TestPlan\example.csv')
 
 infile = open(fname)
@@ -16,9 +16,7 @@ csvData
 
 ## 取特定 列[row] 和 欄[col] 的值.
 csvData[0][0]
-'Channel'
->>>
-
 csvData[0][1]
-'Sector#'
->>>
+
+for row in exampleReader:
+... print('Row #' + str(csvData.line_num) + ' ' + str(row))
