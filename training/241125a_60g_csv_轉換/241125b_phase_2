@@ -1,3 +1,4 @@
 from pathlib import Path
-myFiles = ['0xA021_qca_deg_1.csv']
-filepath = Path(r'D:\Dropbox\12-Office-Sync-MTS\32_POWERFUL_60G\POWERFUL_60G_V4\60g\BrdCSV_TestPlan')
+fname = Path(r'D:\Dropbox\12-Office-Sync-MTS\32_POWERFUL_60G\POWERFUL_60G_V4\60g\BrdCSV_TestPlan\0xA021_qca_deg_1.csv')
+infile = open(csv_file).read()
+
