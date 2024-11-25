@@ -1,7 +1,7 @@
 from pathlib import Path
 import csv
 fname = Path(r'D:\Dropbox\12-Office-Sync-MTS\32_POWERFUL_60G\POWERFUL_60G_V4\60g\BrdCSV_TestPlan\0xA021_qca_deg_1.csv')
-infile = open(fname).read()
+infile = open(fname)
 
 csvReader = csv.reader(infile)
 csvData = list(csvReader)
