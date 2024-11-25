@@ -17,6 +17,3 @@ print(csvData)
 ## 取特定 列[row] 和 欄[col] 的值.
 csvData[0][0]
 csvData[0][1]
-
-for row in exampleReader:
-... print('Row #' + str(csvData.line_num) + ' ' + str(row))
