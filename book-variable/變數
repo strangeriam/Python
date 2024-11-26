@@ -16,7 +16,7 @@ ccc
 # output: 70
 
 帶入變數的是字串, 就要用 '' 括起來.
-aaa = hello
+aaa = 'hello'
 
 # 跳出錯誤訊息
 >>> aaa = hello
