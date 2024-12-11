@@ -14,8 +14,15 @@ csv 模組是 Python 內建, 不須再安裝, 就可直接匯入.
 >>> import csv
 >>> exampleFile = open('D:\\Dropbox\\12-Office-TryTryLu\\Learning_02_Python\\example.csv')
 
+>>> exampleFile
+<_io.TextIOWrapper name='D:\\\\Dropbox\\\\12-Office-TryTryLu\\\\Learning_02_Python\\\\example.csv' mode='r' encoding='cp950'>
+
 ## 不能將檔名字串餵給 csv.reader() 函式.
 >>> exampleReader = csv.reader(exampleFile)
+
+>>> exampleReader
+<_csv.reader object at 0x000001939199CE20>
+>>>
 
 ## 傳入 list() 函數轉換.
 >>> exampleData = list(exampleReader)
