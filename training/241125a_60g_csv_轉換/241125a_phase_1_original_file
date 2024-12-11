@@ -16,11 +16,14 @@ exampleFile = open(Path(r'D:\Dropbox\12-Office-TryTryLu\Learning_02_Python\24121
 
 exampleReader = csv.reader(exampleFile)
 exampleData = list(exampleReader)
+
+## 取 Sector 0, 在第1列 第1欄.
 exampleData[1][1]
 
 ## 輸出
 '1'
 
+## 取 Sector 10, 在第2列 第1欄.
 exampleData[2][1]
 ## 輸出
 '10'
