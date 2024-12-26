@@ -1,4 +1,4 @@
-filename: 1205_CH1_Sector.csv
+filename: 1205_CH1 Sector.csv
 path: D:\Dropbox\12-Office-TryTryLu\Learning_02_Python\241211a_csv_60g_sector\
 
 content:
@@ -11,7 +11,7 @@ Channel,Sector#,Azimuth,Elevation,0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18
 from pathlib import Path
 import csv
 
-fname = '1205_CH1_Sector.csv'
+fname = '1205_CH1 Sector.csv'
 exampleFile = open(Path(r'D:\Dropbox\12-Office-TryTryLu\Learning_02_Python\241211a_csv_60g_sector', fname))
 
 exampleReader = csv.reader(exampleFile)
