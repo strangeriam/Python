@@ -28,8 +28,8 @@ Channel,Sector#,Azimuth,Elevation,0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18
 from pathlib import Path
 import csv
 
-fname = '1205_CH1_Sector.csv'
-exampleFile = open(Path(r'D:\Dropbox\12-Office-TryTryLu\Learning_02_Python\241211a_csv_60g_sector', fname))
+fname = 'PSO_241126.csv'
+exampleFile = open(Path(r'D:\Dropbox\12-Office-TryTryLu\Learning_02_Python\241211b_csv_60g_sector2', fname))
 
 exampleReader = csv.reader(exampleFile)
 exampleData = list(exampleReader)
