@@ -1,6 +1,32 @@
-path: D:\Dropbox\12-Office-TryTryLu\Learning_02_Python\241211b_csv_60g_sector2\
+;# filename: PSO_241126.csv
+;# path: D:\Dropbox\12-Office-TryTryLu\Learning_02_Python\241211b_csv_60g_sector2\
 
-## filename: PSO_241126.csv
+;# CODE
+from pathlib import Path
+import csv
+
+fname = 'PSO_241126.csv'
+csvFile = open(Path(r'D:\Dropbox\12-Office-TryTryLu\Learning_02_Python\241211b_csv_60g_sector2', fname))
+csvReader = csv.reader(csvFile)
+csvData = list(csvReader)
+
+;# 取 [第 1 列] [第 2 欄]
+csvData[1][2]
+
+;# 輸出:
+'-32'
+
+;# 取 [第 1 列] 的 [第4欄 到 第7欄]
+phase = (csvData[1][4],csvData[1][5],csvData[1][6],csvData[1][7])
+phase
+
+;# 輸出:
+('90', '270', '90', '0')
+
+
+
+;# filename: PSO_241126.csv
+;# 內容:
 Channel,Sector#,Azimuth,Elevation,0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31
 1,1,-32,-20,90,270,90,0,270,0,270,0,0,0,0,180,90,270,180,0,180,90,270,90,0,90,270,90,90,0,180,90,0,0,0,0
 2,1,8,-20,180,180,180,0,180,90,270,180,90,90,0,90,270,180,180,0,90,90,180,270,90,90,0,90,0,90,180,270,0,180,0,270
@@ -22,19 +48,3 @@ Channel,Sector#,Azimuth,Elevation,0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18
 2,5,40,-20,180,270,180,270,270,90,180,0,90,0,180,90,180,180,0,180,270,90,180,180,270,270,0,0,180,180,0,180,270,0,0,0
 3,5,16,-10,270,270,270,90,0,270,0,0,0,270,90,270,90,90,0,180,180,0,0,0,180,180,180,270,180,270,0,180,270,0,180,90
 4,5,40,0,0,270,0,0,0,0,0,0,270,180,270,0,0,180,90,270,0,180,270,180,90,180,0,180,180,0,180,90,0,0,270,180
-
-
-## CODE
-from pathlib import Path
-import csv
-
-fname = 'PSO_241126.csv'
-csvFile = open(Path(r'D:\Dropbox\12-Office-TryTryLu\Learning_02_Python\241211b_csv_60g_sector2', fname))
-csvReader = csv.reader(csvFile)
-csvData = list(csvReader)
-
-;# 取 [第 1 列] [第 2 欄]
-csvData[1][2]
-
-輸出:
-'-32'
