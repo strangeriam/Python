@@ -24,6 +24,12 @@ phase
 ('90', '270', '90', '0')
 
 
+for row in csvReader:
+  print('Row #' + str(csvReader.line_num) + ' ' + str(row))
+
+
+
+
 
 ;# filename: PSO_241126.csv
 ;# 內容:
