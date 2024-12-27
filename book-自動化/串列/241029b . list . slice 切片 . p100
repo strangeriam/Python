@@ -19,6 +19,7 @@ spam[1:3]
 --> 從第 1 個開始, 共取 3 個.
 -- 'bat', 'rat' . 從 'cat', 'bat', 'rat'
 
+;# 取到倒數第 1 個 rat (倒數第 0 個是 elephant)
 spam[0:-1]
 輸出:
 ['cat', 'bat', 'rat']
