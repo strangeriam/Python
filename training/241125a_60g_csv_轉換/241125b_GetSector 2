@@ -29,13 +29,12 @@ from pathlib import Path
 import csv
 
 fname = 'PSO_241126.csv'
-exampleFile = open(Path(r'D:\Dropbox\12-Office-TryTryLu\Learning_02_Python\241211b_csv_60g_sector2', fname))
-
-exampleReader = csv.reader(exampleFile)
-exampleData = list(exampleReader)
+csvFile = open(Path(r'D:\Dropbox\12-Office-TryTryLu\Learning_02_Python\241211b_csv_60g_sector2', fname))
+csvReader = csv.reader(csvFile)
+csvData = list(csvReader)
 
 ;# 取 [第 1 列] [第 2 欄]
-exampleData[1][2]
+csvData[1][2]
 
 輸出:
 '-32'
