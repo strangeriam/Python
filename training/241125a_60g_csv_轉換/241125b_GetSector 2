@@ -33,4 +33,9 @@ exampleFile = open(Path(r'D:\Dropbox\12-Office-TryTryLu\Learning_02_Python\24121
 
 exampleReader = csv.reader(exampleFile)
 exampleData = list(exampleReader)
-exampleData[1][1]
+
+;# 取 [第 1 列] [第 2 欄]
+exampleData[1][2]
+
+輸出:
+'-32'
