@@ -34,6 +34,7 @@ spam[:2]
 --> 相當於 spam[0:2]
 --> 從 0 個開始, 共取 2 個.
 
+;# 取到最後 1 個 elephant.
 spam[1:]
 輸出:
 ['bat', 'rat', 'elephant']
