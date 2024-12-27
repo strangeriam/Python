@@ -1,0 +1,13 @@
+from pathlib import Path
+import csv
+
+fname = 'PSO_241126.csv'
+csvFile = open(Path(r'D:\Dropbox\12-Office-TryTryLu\Learning_02_Python\241211b_csv_60g_sector2', fname))
+csvReader = csv.reader(csvFile)
+csvData = list(csvReader)
+
+;# 取出第 1 行內容
+csvData[1]
+
+
+listPhase = (csvData[1])[4:]
