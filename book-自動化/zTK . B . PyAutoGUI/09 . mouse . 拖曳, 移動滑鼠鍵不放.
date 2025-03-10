@@ -1,0 +1,4 @@
+可以選擇拖曳的時間間隔, 可避免拉太快出錯.
+
+    >>> pyautogui.dragTo()
+    >>> pyautogui.drag()
