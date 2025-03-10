@@ -1,0 +1,2 @@
+>>> pyautogui.mouseInfo()
+執行後會跳出這支程式 MouseInfo 0.1.3
