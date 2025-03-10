@@ -1,0 +1,17 @@
+
+    >>> pyautogui.position() # Get current mouse position
+    Point(x=879, y=338)
+    
+    >>> pyautogui.position() # Get current mouse position again
+    Point(x=799, y=493)
+    
+    >>> p = pyautogui.position()
+    >>> p
+    Point(x=763, y=448)
+    
+    >>> p[0] # The x-coordinate is at index 0.
+    763
+    
+    >>> p.x # The x-coordinate is also in the x attribute.
+    763
+    >>>
