@@ -1,0 +1,9 @@
+>>> import pyautogui
+>>> wh = pyautogui.size() # Obtain the screen resolution
+>>> wh
+Size(width=1920, height=1080)
+>>> wh[0]
+1920
+>>> wh.width
+1920
+>>>
