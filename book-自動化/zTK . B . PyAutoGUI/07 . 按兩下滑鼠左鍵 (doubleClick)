@@ -1,0 +1,2 @@
+
+    >>> pyautogui.doubleClick(1195, 819, button='left')
