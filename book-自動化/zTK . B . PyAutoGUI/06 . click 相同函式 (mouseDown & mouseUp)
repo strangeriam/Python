@@ -1,0 +1,6 @@
+
+    >>> pyautogui.mouseDown(1195, 819, button='left') --> 按下滑鼠左鍵
+    >>> pyautogui.mouseUp(1195, 819, button='left') --> 放開滑鼠左鍵
+
+相同於 
+    >>> pyautogui.click(1195, 819, button='left')
