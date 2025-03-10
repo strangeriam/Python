@@ -1,5 +1,28 @@
 
 ;# 在螢幕左上角, 按一下左鍵.
-
     >>> import pyautogui
     >>> pyautogui.click(10, 5)
+
+座標 (100, 150), 按滑鼠左鍵.
+    >>> pyautogui.click(100, 150, button='left')
+
+座標 (200, 250), 按滑鼠右鍵.
+    >>> pyautogui.click(200, 250, button='right')
+
+;# Ecample . Click 範例: 按小算盤 的 1 5 9
+    step 1: 取出按鍵 1 , 5 & 9 所在螢幕座標.
+    >>> pyautogui.position()
+    Point(x=1195, y=819) --> 按鍵 1
+    
+    >>> pyautogui.position()
+    Point(x=1251, y=781) --> 按鍵 5
+    
+    >>> pyautogui.position()
+    Point(x=1309, y=750) --> 按鍵 9
+
+
+    step 2: 輸入 1, 5 & 9 的座標
+    >>> pyautogui.click(1195, 819, button='left')
+    >>> pyautogui.click(1251, 781, button='left')
+    >>> pyautogui.click(1309, 750, button='left')
+
