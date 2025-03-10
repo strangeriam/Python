@@ -1,0 +1,6 @@
+安裝 PyAutoGUI
+C:\Users\Rlulu\AppData\Local\Programs\Python\Python311>pip -V
+C:\Users\Rlulu\AppData\Local\Programs\Python\Python311>pip install --user pyautogui
+
+
+
