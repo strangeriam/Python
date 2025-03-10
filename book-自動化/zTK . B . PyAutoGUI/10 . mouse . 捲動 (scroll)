@@ -1,0 +1,3 @@
+捲動 (scroll) . 整數 向上 . 負數 向下
+
+    >>> pyautogui.scroll(200)
