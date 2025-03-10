@@ -1,0 +1,21 @@
+以下共做 10 次, 滑鼠以正方形順時針移動
+step 1: 在 0.25 秒內移到座標 ( x100 : y100 )
+step 2: 在 0.25 秒內移到座標 ( x200 : y100 )
+step 3: 在 0.25 秒內移到座標 ( x200 : y200 )
+step 4: 在 0.25 秒內移到座標 ( x100 : y100 )
+
+import pyautogui
+for i in range(10):
+    pyautogui.moveTo(100, 100, duration=0.25)
+    pyautogui.moveTo(200, 100, duration=0.25)
+    pyautogui.moveTo(200, 200, duration=0.25)
+    pyautogui.moveTo(100, 200, duration=0.25)
+
+;# example 2
+    import pyautogui
+    
+for i in range(10):
+    pyautogui.moveTo(100, 0, duration=0.25)         # right
+    pyautogui.moveTo(0, 100, duration=0.25)         # down
+    pyautogui.moveTo(-100, 0, duration=0.25)         # left
+    pyautogui.moveTo(0, -100, duration=0.25)         # up
