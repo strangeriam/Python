@@ -1,2 +1,15 @@
 import tkinter as tk
 from tkinter import ttk
+
+def f_greet():
+	print("Hello, World!")
+
+root = tk.Tk()
+
+greet_button = ttk.Button(root, text="Greet", command=f_greet)
+greet_button.pack()
+
+root.mainloop()
+
+
+;# ====================================================
