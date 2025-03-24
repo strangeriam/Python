@@ -1,3 +1,6 @@
+import pyautogui
+import time
+
 ;# Python code B
 ;# ==============
 buttonNormal=(pyautogui.click(500,240, button='left', duration=0.25))
