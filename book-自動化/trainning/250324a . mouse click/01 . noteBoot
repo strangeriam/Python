@@ -1,5 +1,5 @@
 ;# 筆記
-;# 250324 - 滑鼠有移動到指定位置, 但無點擊.
+;# 250324 - 使用 tclTk 寫的 button, 滑鼠有移動到指定位置, 但無法點擊.
 ;# http://pyautogui.readthedocs.org
 
 
