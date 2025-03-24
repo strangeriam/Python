@@ -1,6 +1,6 @@
 ;# 筆記
 ;# 250324 - 滑鼠有移動到指定位置, 但無點擊.
-;# 
+;# http://pyautogui.readthedocs.org
 
 
 ;# 程式步驟:
