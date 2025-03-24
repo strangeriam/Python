@@ -7,8 +7,8 @@
 ;# Step 1: 用 TCL TK 製作 3 個 Button "normal, active & exit".
 ;# Step 2: Python pyautogui 依序點選 normal --> active --> exit.
 
-;# Python code
-;# ===========
+;# Python code A
+;# ==============
 buttonNormal=(pyautogui.click(500,240, button='left', duration=0.25, clicks=2, interval=1))
 buttonActive=(pyautogui.click(500,270, button='left', duration=0.25, clicks=2, interval=1))
 
