@@ -1,3 +1,5 @@
+;# CODE A
+;# =======
 def hello():
 	print("Hello!")
 
