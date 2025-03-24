@@ -52,3 +52,16 @@ divide(15, 0)
 
 ;# OUTPUT:
 You fool!
+
+;# Code F
+;# =======
+def divide(dividend, divisor):
+	if divisor != 0:
+		print(devidend / divisor)
+	else:
+		print("You fool!")
+
+divide(dividend=15, divisor=0)
+
+;# OUTPUT:
+You fool!
