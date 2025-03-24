@@ -1,3 +1,8 @@
+;# 筆記
+;# 250324 - 滑鼠有移動到指定位置, 但無點擊.
+;# 
+
+
 ;# 程式步驟:
 ;# Step 1: 用 TCL TK 製作 3 個 Button "normal, active & exit".
 ;# Step 2: Python pyautogui 依序點選 normal --> active --> exit.
