@@ -1,0 +1,16 @@
+;# Code A
+;# =======
+def add(x, y=8):
+	print(x + y)
+
+add(5)
+
+;# OUTPUT
+13
+
+
+;# Code B
+;# =======
+
+
+;# OUTPUT
