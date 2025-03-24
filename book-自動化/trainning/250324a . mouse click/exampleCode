@@ -1,3 +1,5 @@
+;# exmple code form https://pyautogui.readthedocs.io/en/latest/
+
 >>> import pyautogui
 
 >>> screenWidth, screenHeight = pyautogui.size() # Get the size of the primary monitor.
