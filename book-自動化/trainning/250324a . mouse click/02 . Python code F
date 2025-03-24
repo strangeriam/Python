@@ -1,3 +1,9 @@
 import pyautogui
+
+;# Example A
 pyautogui.moveTo(500,240)
+pyautogui.click()
+
+;# Example B
+pyautogui.moveTo(500,240, duration=2, tween=pyautogui.easeInOutQuad)
 pyautogui.click()
