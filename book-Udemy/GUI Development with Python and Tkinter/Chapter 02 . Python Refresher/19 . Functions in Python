@@ -1,1 +1,7 @@
-def hello
+def hello():
+	print("Hello!")
+
+hello()
+
+;# OUTPUT
+Hello!
