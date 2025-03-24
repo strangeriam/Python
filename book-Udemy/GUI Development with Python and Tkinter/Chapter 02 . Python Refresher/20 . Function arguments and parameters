@@ -22,4 +22,11 @@ Hello, Lu
 
 ;# Code C
 ;# =======
+def say_hello(name, surname):
+	print(f"Hello, {name}, and, {surname}")
+
+say_hello("Lu", "Rlulu")
+
+;# OUTPUT:
+Hello, Lu, and, Rlulu
 
