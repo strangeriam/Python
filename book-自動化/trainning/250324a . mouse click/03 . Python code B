@@ -1,0 +1,8 @@
+;# Python code B
+;# ==============
+buttonNormal=(pyautogui.click(500,240, button='left', duration=0.25))
+buttonActive=(pyautogui.click(500,270, button='left', duration=0.25))
+
+buttonNormal ; print (pyautogui.position())
+# time.sleep(1)
+buttonActive ; print (pyautogui.position())
