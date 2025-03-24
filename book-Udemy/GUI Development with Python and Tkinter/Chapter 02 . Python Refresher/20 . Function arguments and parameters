@@ -30,3 +30,13 @@ say_hello("Lu", "Rlulu")
 ;# OUTPUT:
 Hello, Lu, and, Rlulu
 
+;# Code D
+;# =======
+def say_hello(name, surname):
+	print(f"Hello, {name}, and, {surname}")
+
+say_hello(surname="Rlulu", name="Lu")
+
+;# OUTPUT:
+Hello, Lu, and, Rlulu
+
