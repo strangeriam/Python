@@ -29,7 +29,7 @@ Your age in seconds is 946080000.
 friends = []
 
 def add_friend():
-	friends.append("Rolf")
+	friends.append("Lu")
 
 add_friend()
 add_friend()
@@ -38,5 +38,5 @@ add_friend()
 print(friends)
 
 ;# OUTPUT
-['Rolf', 'Rolf', 'Rolf']
+['Lu', 'Lu', 'Lu']
 
