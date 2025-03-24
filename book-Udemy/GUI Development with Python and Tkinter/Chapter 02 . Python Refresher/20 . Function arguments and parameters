@@ -40,3 +40,15 @@ say_hello(surname="Rlulu", name="Lu")
 ;# OUTPUT:
 Hello, Lu, and, Rlulu
 
+;# Code E
+;# =======
+def divide(dividend, divisor):
+	if divisor != 0:
+		print(devidend / divisor)
+	else:
+		print("You fool!")
+
+divide(15, 0)
+
+;# OUTPUT:
+You fool!
