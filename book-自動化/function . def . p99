@@ -1,0 +1,27 @@
+
+;# Code A
+# ========
+
+def hello(name):
+	print('Hello ' + name)
+
+hello('Lu')
+hello('Rlulu')
+
+;# OUTPUT:
+Hello Lu
+Hello Rlulu
+
+;# Code B
+# ========
+
+
+;# OUTPUT:
+
+
+;# Code C
+# ========
+
+
+;# OUTPUT:
+
