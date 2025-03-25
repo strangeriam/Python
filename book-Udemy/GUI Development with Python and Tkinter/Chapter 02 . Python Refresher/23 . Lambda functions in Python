@@ -12,11 +12,11 @@ print(add(5, 7))
 
 ;# Code B
 ;# =======
-
-
+add = lambda x, y: x + y
+print(add(5, 7))
 
 ;# OUTPUT
-
+12
 
 
 ;# Code C
