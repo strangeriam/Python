@@ -21,6 +21,7 @@ say_hello("Lu")
 Hello, Lu
 
 ;# Code C
+;# surname 姓
 ;# =======
 def say_hello(name, surname):
 	print(f"Hello, {name}, and, {surname}")
