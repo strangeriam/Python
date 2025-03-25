@@ -13,6 +13,8 @@ print(result)
 13
 
 ;# Code B
+;# divisor 除數
+;# dividend 餘數
 ;# =======
 
 
