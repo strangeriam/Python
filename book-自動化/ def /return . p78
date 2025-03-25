@@ -28,4 +28,18 @@ fortune = getAnswer(r)
 print(fortune)
 
 ;# OUTPUT:
+My reply is no
 
+
+;# Code B
+# ========
+r = random.randint(1, 9)
+fortune = getAnswer(r)
+print(fortune)
+
+可用以下取代
+print(getAnswer(random.randint(1, 9)))
+
+
+;# OUTPUT:
+It is certain
