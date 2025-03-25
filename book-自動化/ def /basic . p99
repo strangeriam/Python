@@ -14,14 +14,10 @@ Hello Rlulu
 
 ;# Code B
 # ========
+def sayHello(name):
+	print('Hello, ' + name)
 
-
-;# OUTPUT:
-
-
-;# Code C
-# ========
-
+sayHello('Lu')
 
 ;# OUTPUT:
-
+Hello, Lu
