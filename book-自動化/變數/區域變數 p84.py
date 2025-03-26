@@ -5,12 +5,13 @@ spam()
 
 print(eggs)
 
-# Error message
+# OUTPUT: (Error message)
 Traceback (most recent call last):
   File "D:\BeeStation\02_python\250326_mouseMove2\try.py", line 4, in <module>
     print(eggs)
           ^^^^
 NameError: name 'eggs' is not defined
+
 
 # 說明
 eggs 變數只作用於 呼叫 spam() 的區域變數.
