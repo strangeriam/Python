@@ -5,7 +5,7 @@ root = tk.Tk()
 root.geometry("350x400+200+300")
 root.title('cuteluluWindow')
 root.configure(bg="#7AFEC6")
-root.iconbitmap('heart_green.ico')
+# root.iconbitmap('heart_green.ico')  # 沒圖, 所以 Remark
 root.geometry('300x300')
 
 def GET():
