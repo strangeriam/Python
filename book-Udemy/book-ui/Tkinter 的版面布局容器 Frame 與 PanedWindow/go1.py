@@ -9,6 +9,14 @@
 
 # 測試 1 : pack() 的堆疊式的版面布局 
 
+# 可見 pack 版面管理員的布局方式基本上就是由上而下堆疊,
+# 雖然可以在呼叫 pack() 時傳入 side=tk.RIGHT/LEFT/TOP/BOTTOM 指定上下左右之垂直水平位置,
+# 或傳入 anchor=tk.E/W/S/N/CENTER/NW/NE/SW/SE 來定位元件在父容器中的位置,
+# 但光用 side 與 anchor 參數無法達成讓上方輸入框與按鈕元件以水平方式排在最上方, 且登入在左, 執行在右的需求. 
+
+# 解決辦法之一是使用 Frame 容器來放置元件,
+# 並且每個元件在呼叫 pack() 時傳入 side=tk.LEFT 指定由左向右水平排列, 版面結構如下圖所示 :
+
 account=tk.Entry(root, width=10)  # 帳號輸入框
 account.pack()  # 元件放入視窗
 password=tk.Entry(root, width=10, show='*')  # 密碼輸入框
