@@ -1,5 +1,8 @@
-Entry 元件常用參數如下表 : 
+Lu: 無法使用.
+height
 
+
+Entry 元件常用參數如下表 : 
 
  Entry 元件常用屬性	 說明
  textvariable	 動態綁定文字欄位內容的類別變數物件名稱
