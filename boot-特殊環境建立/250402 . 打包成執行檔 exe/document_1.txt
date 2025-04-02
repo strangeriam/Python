@@ -1,1 +1,8 @@
+環境需求:
+1. pyinstall
+
+
+
 安裝 pyinstall
+1. 以系統管理員開啟 命令提示字元.
+2. C:\WINDOWS\system32>pip install pyinstaller     
