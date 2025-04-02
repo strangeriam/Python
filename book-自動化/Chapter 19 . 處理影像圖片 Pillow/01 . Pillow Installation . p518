@@ -6,6 +6,8 @@ Pillow 功能
 安裝指令
 pip install --user -U pillow==6.0.0
 
+呼叫 pillow 模組: from PIL import ImageColor
+
 注意, 安裝書裡使用的 pillow==6.0.0 時會有錯誤.
 
 Install Log:
