@@ -7,7 +7,7 @@ os.chdir('D:\\BeeStation\\02_python\\250402_mouseMove4\\')
 # size 816 x 1088
 
 >>> from PIL import Image
->>> catIm = Image.open('sample.png')
+>>> catIm = Image.open('zophie.png')
 
 >>> catIm.size
 (642, 232)
