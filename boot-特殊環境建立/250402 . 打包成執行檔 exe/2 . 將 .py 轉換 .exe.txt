@@ -9,12 +9,8 @@ reference link: https://yhhuang1966.blogspot.com/2023/07/python-pyinstaller-py-e
 06. 可用 Lnno Setup 打包 setup.exe (https://fullstackladder.dev/blog/2022/02/02/inno-setup-quick-start/)
 07. 程式執行時, 如不跳出 '無內容的命令提示字元', 可用 -w 參數避開. 'pyinstaller -F source.py -w'
 08. 打包時, 會將所有其他程式碼一併打包進去.
-09. 
+09. 打包前, 原始程式 (2 個檔 go.py & common.py 大小約 11.9 KB), 轉成執行檔後 (go.exe) 約 14.4 MB.
 
 1. cd D:\BeeStation\02_python\250402_mouseMove4>
-2. 須轉檔內容.
-go.py
-common.py
-MainConfig.ini
-
-2. pyinstaller -F go.py
+2. 須轉檔內容: go.py & common.py
+3. pyinstaller -F go.py
