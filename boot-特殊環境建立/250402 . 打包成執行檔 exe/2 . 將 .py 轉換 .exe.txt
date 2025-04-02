@@ -6,7 +6,8 @@ reference link: https://yhhuang1966.blogspot.com/2023/07/python-pyinstaller-py-e
 3. 須將非程式的其他檔放在 'dist', 這樣才能執行.
 4. 在檔案總管執行此執行檔, 如出現錯誤只會閃退.
 5. 在命令提示字元執行此執行檔, 如有錯誤, 會有 Log, 例如缺所需圖檔.
-
+6. 可用 Lnno Setup 打包 setup.exe (https://fullstackladder.dev/blog/2022/02/02/inno-setup-quick-start/)
+7. 程式執行時, 如不跳出 '無內容的命令提示字元', 可用 -w 參數避開. 'pyinstaller -F source.py -w'
 
 1. cd D:\BeeStation\02_python\250402_mouseMove4>
 2. pyinstaller -F go.py
