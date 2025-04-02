@@ -4,6 +4,8 @@
 # filename: zophie.png
 # size 816 x 1088
 
+# 注意: 其他圖檔會出現錯誤, 需釐清.
+
 import os
 # 切換圖檔所在工作目錄.
 os.chdir('D:\\BeeStation\\02_python\\250402_mouseMove4\\')
@@ -32,3 +34,6 @@ os.chdir('D:\\BeeStation\\02_python\\250402_mouseMove4\\')
 
 >>> catIm.save('zophie.jpg')
 >>>
+
+
+
