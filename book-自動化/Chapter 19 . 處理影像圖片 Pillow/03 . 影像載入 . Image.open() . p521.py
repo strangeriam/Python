@@ -1,26 +1,28 @@
-import os
-# 切換圖檔所在工作目錄.
-os.chdir('D:\\BeeStation\\02_python\\250402_mouseMove4\\')
+# 目的: 將1個 png檔 (zophie.png) 轉換格式成 jpg 檔 (zophie.jpg)
 
 # 圖檔資訊:
 # filename: zophie.png
 # size 816 x 1088
 
+import os
+# 切換圖檔所在工作目錄.
+os.chdir('D:\\BeeStation\\02_python\\250402_mouseMove4\\')
+
 >>> from PIL import Image
 >>> catIm = Image.open('zophie.png')
 
 >>> catIm.size
-(642, 232)
+(816, 1088)
 
 >>> width, height = catIm.size
 >>> width
-642
+816
 
 >>> height
-232
+1088
 
 >>> catIm.filename
-'sample.png'
+'zophie.png'
 
 >>> catIm.format
 'PNG'
@@ -28,3 +30,5 @@ os.chdir('D:\\BeeStation\\02_python\\250402_mouseMove4\\')
 >>> catIm.format_description
 'Portable network graphics'
 
+>>> catIm.save('zophie.jpg')
+>>>
