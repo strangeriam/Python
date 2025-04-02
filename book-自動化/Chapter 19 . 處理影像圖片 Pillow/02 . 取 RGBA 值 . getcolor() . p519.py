@@ -1,3 +1,4 @@
+
 from PIL import ImageColor
 
 >>> ImageColor.getcolor('red', 'RGBA')
