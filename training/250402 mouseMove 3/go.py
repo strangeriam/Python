@@ -35,7 +35,7 @@ flow3_y = int(f_readini_flow3_y())
 # print('flow1_x: ', flow1_x)
 # print('flow1_y: ', flow1_y)
 
-version = 'v250401'
+version = 'v250402'
 program_title = 'AUTO UI Control . by Lu', version
 
 def f_mouse_move_click(x, y):
