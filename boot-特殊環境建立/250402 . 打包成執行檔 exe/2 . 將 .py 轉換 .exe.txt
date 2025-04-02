@@ -1,1 +1,12 @@
-sfsfs
+reference link: https://yhhuang1966.blogspot.com/2023/07/python-pyinstaller-py-exe.html
+
+注意:
+1. 轉換後, 執行檔會被放在自動產生目錄的 'dist'.
+2. 轉換後, 並不包括其他程式會用到的資料夾或檔案 (例如 圖檔, ini 檔, ...,).
+3. 須將非程式的其他檔放在 'dist', 這樣才能執行.
+4. 在檔案總管執行此執行檔, 如出現錯誤只會閃退.
+5. 在命令提示字元執行此執行檔, 如有錯誤, 會有 Log, 例如缺所需圖檔.
+
+
+1. cd D:\BeeStation\02_python\250402_mouseMove4>
+2. pyinstaller -F go.py
