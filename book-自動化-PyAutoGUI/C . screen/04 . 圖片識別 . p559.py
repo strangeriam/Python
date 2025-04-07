@@ -31,6 +31,8 @@ list(pyautogui.locateAllOnScreen('submit.png'))
 # 2 種方式點擊 按鈕.
 # Way 1
 pyautogui.click((1706, 256, 91, 106))
+# OUTPUT: click normal ..  (2025, 4, 7, 14, 11, 58)
 
 # Way 2
 pyautogui.click('submit.png')
+# OUTPUT: click normal ..  (2025, 4, 7, 14, 12, 54)
