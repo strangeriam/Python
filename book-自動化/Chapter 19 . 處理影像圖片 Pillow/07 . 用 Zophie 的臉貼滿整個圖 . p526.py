@@ -15,6 +15,7 @@ catCopyIm.paste(faceIm, (400, 500))
 catCopyIm.save('pasted.png')
 
 # Page 526
+# 將 catIm.size 存到 catImWidth 和 catImHeight
 catImWidth, catImHeight = catIm.size
 faceImWidth, faceImHeight = faceIm.size
 catCopyTwo = catIm.copy()
