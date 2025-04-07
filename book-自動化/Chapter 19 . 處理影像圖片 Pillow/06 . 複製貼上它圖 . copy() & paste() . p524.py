@@ -5,8 +5,10 @@ from PIL import Image
 catIm = Image.open('zophie.png')
 catCopyIm = catIm.copy()
 
->>> faceIm = catIm.crop((335, 345, 565, 560))
->>> faceIm.size
+faceIm = catIm.crop((335, 345, 565, 560))
+faceIm.size
+
+# OUTPUT:
 (230, 215)
 
 catCopyIm.paste(faceIm, (0, 0))
