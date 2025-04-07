@@ -23,6 +23,8 @@ for left in range(0, catImWidth, faceImWidth):
     print(left, top)
     catCopyTwo.paste(faceIm, (left, top))
 
+catCopyTwo.save('tiled.png')
+
 # OUTPUT:
 0 0
 0 215
