@@ -1,25 +1,20 @@
-datetime.datetime 可以處理日期與時間相關的操作，本身包含下列幾個屬性：year、month、dayhour、minute、second、microsecond 和 tzinfo，分別用逗號區隔，下方的程式會印出指定的日期和時間。
+# year、month、dayhour、minute、second、microsecond 和 tzinfo
 
 import datetime
 thisTime = datetime.datetime(2020,1,1,20,20,20,20)
 print(thisTime)    # 2020-01-01 20:20:20.000020
 
-datetime.datetime 有下面幾個主要的方法可以使用：
-
-方法	說明
+# 主要的方法
 today()	回傳目前的日期與時間
 now()	回傳目前的日期與時間，可加入 tz 參數設定時區
 utcnow()	回傳目前的日期與時間
 
 import datetime
-print(datetime.datetime.today())    # 2021-10-19 06:15:46.022925
-print(datetime.datetime.now(tz=datetime.timezone(datetime.timedelta(hours=8))))
-# 2021-10-19 14:15:46.027982+08:00
-print(datetime.datetime.utcnow())   # 2021-10-19 06:15:46.028630
+print(datetime.datetime.today())     # 2025-04-08 09:45:17.886388
+print(datetime.datetime.now(tz=datetime.timezone(datetime.timedelta(hours=8)))) # 2025-04-08 09:45:52.077623+08:00
+print(datetime.datetime.utcnow())   # 2025-04-08 01:46:12.785093
 
-使用 datetime.datetime 將字串轉換為日期時間物件後，就能透過下面幾種常用的方法，將取出的日期時間資訊進行下一步操作。
-
-方法	說明
+# 使用 datetime.datetime 將字串轉換為日期時間物件後，就能透過下面幾種常用的方法，將取出的日期時間資訊進行下一步操作。
 year	取得西元年
 month	取得月份
 day	取得日期
