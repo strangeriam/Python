@@ -4,3 +4,5 @@ nowTime = datetime.datetime.now().strftime('%H%M%S')
 
 print('Date: ', nowDate)
 print('Time: ', nowTime)
+
+filename = 'report_', nowTime
