@@ -24,3 +24,14 @@ dec31st - aboutThirtyYears
 
 dec31st - (2 * aboutThirtyYears)
 輸出: datetime.datetime(1964, 11, 20, 14, 40)
+
+# 暫停到指定日期
+import datetime
+import time
+
+halloween2024 = datetime.datetime(2024, 11, 11, 0, 0 ,0)
+while datetime.datetime.now() < halloween2024:
+  time.sleep(1)
+
+輸出:
+直到 2024年11月11日 0時0分0秒 才跳出 while 迴圈.
