@@ -1,9 +1,0 @@
-import datetime
-import time
-
-halloween2024 = datetime.datetime(2024, 11, 11, 0, 0 ,0)
-while datetime.datetime.now() < halloween2024:
-  time.sleep(1)
-
-輸出:
-直到 2024年11月11日 0時0分0秒 才跳出 while 迴圈.
