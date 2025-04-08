@@ -32,5 +32,20 @@ nov5st.strftime('%I:%M %p')
 nov5st.strftime("%B of '%y")
 輸出: "November of '24"
 
+# 依格式, 反推時間.
+import datetime
+
+datetime.datetime.strptime('November 6, 2024', '%B %d, %Y')
+輸出: datetime.datetime(2024, 11, 6, 0, 0)
+
+datetime.datetime.strptime('2024/11/6 8:45:00', '%Y/%m/%d %H:%M:%S')
+輸出: datetime.datetime(2024, 11, 6, 8, 45)
+
+datetime.datetime.strptime("November of '24", "%B of '%y")
+輸出: datetime.datetime(2024, 11, 1, 0, 0)
+
+datetime.datetime.strptime("November of '63", "%B of '%y")
+輸出: datetime.datetime(2063, 11, 1, 0, 0)
+
 
 
