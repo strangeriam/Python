@@ -17,3 +17,6 @@ def f_new_dirName():
 from common import f_new_dirName
 filename = f_new_dirName()
 print( 'Return: ', filename )
+
+## Modify sourceCode.
+plt.savefig(filename, dpi=300, bbox_inches='tight')
