@@ -1,3 +1,5 @@
+# Reference link: https://steam.oxxostudio.tw/category/python/library/datetime.html#a1
+
 # datetime 有下列幾種處理日期和時間的方法
 
 # 方法	說明
