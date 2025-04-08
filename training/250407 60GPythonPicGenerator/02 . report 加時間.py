@@ -1,4 +1,6 @@
 import datetime
+nowDate = datetime.datetime.now().strftime('%Y%m%d')
+nowTime = datetime.datetime.now().strftime('%H%M%S')
 
-today = datetime.date.today()
-print(today.strftime('%Y.%m.%d'))
+print('Date: ', nowDate)
+print('Time: ', nowTime)
