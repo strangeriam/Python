@@ -7,13 +7,14 @@ def f_new_dirName():
 	nowDate = datetime.datetime.now().strftime('%Y%m%d')
 	nowTime = datetime.datetime.now().strftime('%H%M%S')
 
-	worktmp = Path.cwd()
-	resultPath = 'result' + '\\' + nowDate
-	print(Path(worktmp, resultPath))
-	os.makedirs(Path(worktmp, resultPath))
+	resultPath = Path(Path.cwd(), 'result' + '\\' + nowDate)
+	os.makedirs(resultPath)
+
+	return resultPath
 
 
 # go.py
 from common import f_new_dirName
 
-f_new_dirName()
+var = f_new_dirName()
+print( 'Return: ', var )
