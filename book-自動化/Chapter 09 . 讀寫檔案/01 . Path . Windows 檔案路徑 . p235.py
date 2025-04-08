@@ -10,20 +10,3 @@ for filename in myFiles:
 D:\Dropbox\12-Office-TryTryLu\Learning_02_Python\accounts.txt
 D:\Dropbox\12-Office-TryTryLu\Learning_02_Python\details.csv
 D:\Dropbox\12-Office-TryTryLu\Learning_02_Python\invite.docx
-
-
-# 方式 二:
->>>
->>> from pathlib import Path
->>> Path('spam') / 'bacon' / 'eggs'
-WindowsPath('spam/bacon/eggs')
->>>
->>>
->>> Path('spam') / Path('bacon/eggs')
-WindowsPath('spam/bacon/eggs')
->>>
->>>
->>> Path('spam') / Path('bacon', 'eggs')
-WindowsPath('spam/bacon/eggs')
->>>
-
