@@ -8,3 +8,5 @@ print('Time: ', nowTime)
 filename = 'report_' + nowTime
 
 print(filename)
+
+# OUTPUT: report_104957
