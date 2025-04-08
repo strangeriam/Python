@@ -15,6 +15,5 @@ def f_new_dirName():
 
 # go.py
 from common import f_new_dirName
-
-newDir = f_new_dirName()
-print( 'Return: ', newDir )
+filename = f_new_dirName()
+print( 'Return: ', filename )
