@@ -5,7 +5,7 @@ os.chdir('D:\\BeeStation\\02_python\\250402_mouseMove4')
 
 # 2. 查看目前工作目錄
 from pathlib import Path
-Path.cwd() # WindowsPath('C:/Windows/System32')
+Path.cwd() # WindowsPath('D:/BeeStation/02_python/250402_mouseMove4')
 
 
 # Beginning
