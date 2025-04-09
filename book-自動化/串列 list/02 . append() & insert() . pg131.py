@@ -1,8 +1,10 @@
 # moose 駝鹿
 
-# 注意不可使用 
+# 注意 1, 不可使用
 # spam = spam.append('moose')
 # spam = spam.insert(1, 'chicken')
+
+# 注意 2, 不可數字和字串混搭.
 
 # append() . 把引數 加到串列的尾端.
 spam = ['cat', 'dog', 'bat']
