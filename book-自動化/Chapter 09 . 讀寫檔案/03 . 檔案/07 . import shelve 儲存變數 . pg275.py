@@ -15,3 +15,16 @@ shelfFile = shelve.open('mydata') # 新產生檔案 mydata.dat
 cats = ['Zophie', 'Pooka', 'Simon']
 shelfFile['cats'] = cats # 新產生檔案 mydata.dir
 shelfFile.close() # 新產生檔案 mydata.bak
+
+# =================================
+shelfFile = shelve.open('mydata')
+type(shelfFile) # <class 'shelve.DbfilenameShelf'>
+shelfFile['cats'] # ['Zophie', 'Pooka', 'Simon']
+shelfFile.close()
+
+# =================================
+shelfFile = shelve.open('mydata')
+list(shelfFile.keys()) # ['cats']
+list(shelfFile.values()) # [['Zophie', 'Pooka', 'Simon']]
+shelfFile.close()
+
