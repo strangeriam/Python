@@ -1,7 +1,9 @@
 # 切換工作路徑
 import os
-os.chdir('C:\\Windows\\System32')
+os.chdir('D:\\BeeStation\\03_python_project\\250414_mouseScreenControl\\Material')
 
 # 檢查工作路徑
 from pathlib import Path
-Path.cwd() # WindowsPath('C:/Windows/System32')
+p = Path.cwd()
+
+print(p) # D:\BeeStation\03_python_project\250414_mouseScreenControl\Material
