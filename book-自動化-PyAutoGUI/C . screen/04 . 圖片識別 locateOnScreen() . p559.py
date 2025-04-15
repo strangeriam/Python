@@ -1,5 +1,6 @@
 # 目的: 在螢幕截圖上取得欲控制的 按鈕 圖的座標.
 
+# 步驟: 擷取當前操作螢幕畫面 --> 帶入愈取得 按鈕 的截圖 --> 取得其 X Y 座標.
 import os
 os.chdir('D:\\BeeStation\\02_python\\250402_mouseMove4\\')
 
