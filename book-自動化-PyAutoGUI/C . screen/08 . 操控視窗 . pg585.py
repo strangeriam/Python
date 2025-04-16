@@ -33,7 +33,7 @@ True
 >>> fw.isMaximized
 True
 
-# 重作先前的狀態, Lu-250407: 沒感覺.
+# 恢復先前位置
 >>> fw.restore()
 
 # 最小化視窗
