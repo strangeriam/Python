@@ -12,17 +12,19 @@ result: 如果都通過所有檢查, 則返回 True.
 
 ## ======================================================
 def isPhoneNumber(text):
-  if len(text) != 12:
-    return False
-  for i in range(0, 3):
-    if not text[i].isdecimal():
+    if len(text) != 12:
       return False
 
-  if text[3] != '-':
-    return False
-  for i in range(4, 7):
-    if not text[i].isdecimal():
-      return False
+    for i in range(0, 3):
+      if not text[i].isdecimal():
+        return False
+
+    if text[3] != '-':
+        return False
+
+    for i in range(4, 7):
+      if not text[i].isdecimal():
+        return False
 
   if text[7] != '-':
     return False
