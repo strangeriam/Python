@@ -1,3 +1,5 @@
+group() : Match 物件 group() : 返回被尋找字串中符合文字.
+
 Learning B: 把區域碼從電話號碼中分開. 使用 group()
 Learning C: 把區域碼從電話號碼中分開. 使用 groups()
 
