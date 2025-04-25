@@ -1,0 +1,18 @@
+? 表示它前面的括號分組在這模式中是 可選擇性的.
+
+## ========================================
+Learning B: 電話號碼, 有區號, 沒有區號.
+## ========================================
+import re
+
+phoneRegex = re.compile(r'(\d\d\d-)?\d\d\d-\d\d\d\d')
+mo1 = phoneRegex.search('My number is 415-555-4242')
+mo1.group()
+輸出:
+'415-555-4242'
+
+mo2 = phoneRegex.search('My number is 555-4242')
+mo2.group()
+輸出:
+'555-4242'
+
