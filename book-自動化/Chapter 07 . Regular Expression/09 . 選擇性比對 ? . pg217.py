@@ -1,3 +1,6 @@
+# (wo)? 是可選擇性的, wo 是否出現都可以.
+
+## ========================================
 import re
 
 batRegex = re.compile(r'Bat(wo)?man')
