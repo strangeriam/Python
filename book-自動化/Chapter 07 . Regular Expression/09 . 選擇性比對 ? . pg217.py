@@ -7,3 +7,4 @@ print(a)
 
 mo2 = batRegex.search('The Adventures of Batwoman')
 b = mo2.group()
+print(b)
