@@ -1,1 +1,2 @@
-03 . None 值 . pg102.py
+spam = print('Hello!') # Hello!
+None == spam # True
