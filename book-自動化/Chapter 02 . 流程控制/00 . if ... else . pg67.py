@@ -14,6 +14,7 @@ else:
 
 # Example
 name = 'Lu'
+age = 3000
 
 # '=='
 if name == 'Lu':
@@ -24,10 +25,7 @@ if name == 'Lu':
         print('Wrong password.')
 elif age < 12:
     print('You are not Lu, Kiddo.') ;# kiddo 小子
-
-if age > 2000:
+elif age > 2000:
     print('Unlike you, Lu is not an undead, immprtal vampire.')
 elif age > 100:
     print('You are not Lu, grannie.')
-
-
