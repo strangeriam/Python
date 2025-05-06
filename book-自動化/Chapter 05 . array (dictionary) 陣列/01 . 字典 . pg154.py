@@ -12,6 +12,4 @@ myCat = {'size': 'fat', 'color': 'gray', 'disposition': 'loud'}
 eggs = {'name': 'Zophie', 'species': 'cat', 'age': '8'}
 ham = {'species': 'cat', 'age': '8', 'name': 'Zophie'}
 
-eggs == ham
-輸出:
-True
+eggs == ham # True
