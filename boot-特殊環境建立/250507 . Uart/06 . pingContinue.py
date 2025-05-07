@@ -1,3 +1,5 @@
+# 目的 i = 3 時, 下 Ctrl +C 離開 ping, 並且放掉 COM port. 
+
 import serial
 
 ser = serial.Serial(
@@ -9,12 +11,23 @@ ser = serial.Serial(
 	xonxoff=False
 )
 
-# ser.write(b'date >> /tmp/try.txt && cat /tmp/try.txt\r')
 ser.write(b'ping 192.168.2.1\r')
 
 line = ser.readline()
 
+i = 1
+
 while line:
+	print('i:', i)
+
 	line = ser.readline()
 	print(line)
 	ser.reset_input_buffer()
+
+	if i == 3:
+		ser.write(bytearray(b'\x03')) # Ctrl + C 離開 ping.
+		print('close com')
+		ser.close()
+		break
+
+	i = i + 1
