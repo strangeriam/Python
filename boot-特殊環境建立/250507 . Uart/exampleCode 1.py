@@ -1,4 +1,26 @@
 import serial
+ser = serial.Serial()
+ser.baudrate = 115200
+ser.port = 0
+ser
+Serial<id=0xa81c10, open=False>(port='COM1', baudrate=19200, bytesize=8, parity='N', stopbits=1, timeout=None, xonxoff=0, rtscts=0)
+>>> ser.open()
+>>> ser.isOpen()
+True
+>>> ser.close()
+>>> ser.isOpen()
+False
+
+# 獲取可用的 COM port
+import serial.tools.list_ports
+
+coms=serial.tools.list_ports.comports()
+for a in coms:
+	print(a)
+
+
+
+import serial
 import serial.tools.list_ports as port_list
 
 ports = list(port_list.comports())
