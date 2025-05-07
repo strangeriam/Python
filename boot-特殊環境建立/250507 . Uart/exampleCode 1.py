@@ -1,3 +1,47 @@
+import serial,time
+ser = serial.Serial(
+    port='COM3',
+    baudrate=115200,
+    bytesize=serial.EIGHTBITS,
+    parity=serial.PARITY_NONE,
+    stopbits=serial.STOPBITS_ONE,
+    xonxoff=False
+)
+line = ser.readline();
+ 
+while line:
+     line = ser.readline()
+     print(line)
+     ser.reset_input_buffer()
+     cmd = input("Enter command or 'exit':") + '\r\n'
+     if len(cmd)>0:
+        ser.write(cmd.encode())
+     else:
+        continue
+
+
+
+import serial
+
+def main():
+    sp = serial.Serial()
+    sp.port = 'COM3'
+    sp.baudrate = 115200
+    sp.timeout = 5
+
+    sp.open()
+    sp.readline() #to give the hardware handshake time to happen
+    sp.write(chr(1))
+    value = sp.readline()
+    print value
+    sp.write(chr(0))
+    sp.close()
+
+if __name__ == "__main__":
+
+    main()
+
+
 import serial
 ser = serial.Serial()
 ser.baudrate = 115200
