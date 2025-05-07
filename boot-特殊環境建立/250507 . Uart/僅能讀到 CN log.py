@@ -1,3 +1,11 @@
+import serial
+with serial.Serial() as ser:
+    ser.baudrate = 115200
+    ser.port = 'COM3'
+    ser.open()
+    ser.write(b'date >> /tmp/try.txt\r')
+
+
 # 讀到 Log 後, 顯示 Enter command or 'exit':
 import serial,time
 ser = serial.Serial(
