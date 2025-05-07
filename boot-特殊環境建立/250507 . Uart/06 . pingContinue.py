@@ -14,20 +14,19 @@ ser = serial.Serial(
 ser.write(b'ping 192.168.2.1\r')
 
 line = ser.readline()
+print('A 0 :', line)
 
 i = 1
-
 while line:
-	print('i:', i)
-
 	line = ser.readline()
-	print(line)
+	print('B', + i, ':', line)
 	ser.reset_input_buffer()
 
 	if i == 3:
 		ser.write(bytearray(b'\x03')) # Ctrl + C 離開 ping.
-		print('close com')
+		print('C', + i, ':', 'close com')
 		ser.close()
 		break
 
 	i = i + 1
+
