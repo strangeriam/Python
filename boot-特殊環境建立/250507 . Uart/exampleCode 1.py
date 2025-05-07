@@ -2,7 +2,7 @@ import serial
 ser = serial.Serial("COM3", 115200)
    
 # Send character 'S' to start the program
-ser.write(bytearray('S','ascii'))
+ser.write(bytearray(b'ls','ascii'))
 
 # Read line   
 while True:
