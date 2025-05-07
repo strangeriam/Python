@@ -30,3 +30,10 @@ while line:
 
 	i = i + 1
 
+# 輸出:
+A 0 : b'ping 192.168.2.1\r\n'
+B 1 : b'PING 192.168.2.1 (192.168.2.1): 56 data bytes\r\n'
+B 2 : b'64 bytes from 192.168.2.1: seq=1 ttl=64 time=0.150 ms\r\n'
+B 3 : b'64 bytes from 192.168.2.1: seq=2 ttl=64 time=0.123 ms\r\n'
+C 3 : close com
+[Finished in 2.3s]
