@@ -1,6 +1,7 @@
 # 安裝 requests.
-
 pip install --user requests
+
+import requests
 
 ## ================================================
 Microsoft Windows [版本 10.0.19045.5737]
