@@ -1,3 +1,5 @@
+# reference: https://steam.oxxostudio.tw/category/python/library/threading.html
+
 import time
 
 def aa():
