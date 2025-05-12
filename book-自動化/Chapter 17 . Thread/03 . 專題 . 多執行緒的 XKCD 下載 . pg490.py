@@ -1,5 +1,12 @@
-# Demo code download from http://nostarch.com/automatestuff2
 
+
+# 模組功能解說
+# reguests . 可從網路上下載檔案和網頁.
+# bs4 . 可解析 HTML 的網頁編寫格式
+
+# Example code
+# Demo code download from http://nostarch.com/automatestuff2
+# ==========================================
 #! python3
 # multidownloadXkcd.py - Downloads XKCD comics using multiple threads.
 
