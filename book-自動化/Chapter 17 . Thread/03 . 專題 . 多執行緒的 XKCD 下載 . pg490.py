@@ -1,6 +1,6 @@
 # 模組功能解說
 # reguests . 可從網路上下載檔案和網頁.
-# bs4 . 可解析 HTML 的網頁編寫格式
+# bs4 . 可解析 HTML 的網頁編寫格式 (beautifulsoup4)
 
 # Example code
 # Demo code download from http://nostarch.com/automatestuff2
