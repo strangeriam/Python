@@ -1,3 +1,5 @@
+# Nap 小睡, 打個盹.
+
 import threading, time
 print('Start of program.')
 
@@ -13,4 +15,4 @@ print('End of program')
 輸出:
 Start of program.
 End of program
->>> Wake up!
+Wake up!
