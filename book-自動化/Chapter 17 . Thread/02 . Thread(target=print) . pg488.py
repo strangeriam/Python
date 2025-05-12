@@ -2,7 +2,9 @@
 ## 它會傳入 'Cats', 'Dogs' & 'Frogs' 作為引數, 以及 '&' 作為 sep 關鍵字引數.
 
 import threading
+
 threadObj = threading.Thread(target=print, args=['Cats', 'Dogs', 'Frogs'], kwargs={'sep': ' & '})
 threadObj.start()
 
-輸出: Cats & Dogs & Frogs
+# 輸出:
+Cats & Dogs & Frogs
