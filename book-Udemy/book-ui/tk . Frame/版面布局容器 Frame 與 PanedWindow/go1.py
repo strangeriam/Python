@@ -33,6 +33,7 @@ command.pack()  # 元件放入視窗
 
 run_btn=tk.Button(root, text='執行', command=run)  # 登入按鈕
 run_btn.pack()  # 元件放入視窗
+
 # 建立執行結果文字區域
 result=tk.Text(root)
 result.pack(fill=tk.BOTH, expand=True)
