@@ -17,14 +17,20 @@
 # 解決辦法之一是使用 Frame 容器來放置元件,
 # 並且每個元件在呼叫 pack() 時傳入 side=tk.LEFT 指定由左向右水平排列, 版面結構如下圖所示 :
 
+# ========================================
+
 account=tk.Entry(root, width=10)  # 帳號輸入框
 account.pack()  # 元件放入視窗
+
 password=tk.Entry(root, width=10, show='*')  # 密碼輸入框
 password.pack()  # 元件放入視窗
+
 login_btn=tk.Button(root, text='登入', command=login)  # 登入按鈕
 login_btn.pack()  # 元件放入視窗
+
 command=tk.Entry(root, width=20)  # 指令輸入框
 command.pack()  # 元件放入視窗
+
 run_btn=tk.Button(root, text='執行', command=run)  # 登入按鈕
 run_btn.pack()  # 元件放入視窗
 # 建立執行結果文字區域
