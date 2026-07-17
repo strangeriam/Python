@@ -18,6 +18,11 @@
 # 並且每個元件在呼叫 pack() 時傳入 side=tk.LEFT 指定由左向右水平排列, 版面結構如下圖所示 :
 
 # ========================================
+import tkinter as tk
+
+root = tk.Tk()
+root.title('SendTX')
+root.geometry('400x600')
 
 account=tk.Entry(root, width=10)  # 帳號輸入框
 account.pack()  # 元件放入視窗
