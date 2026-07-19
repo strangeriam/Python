@@ -1,1 +1,3 @@
-hello world !!!
+def aaa():
+  print('hello world')
+
