@@ -5,8 +5,8 @@ root.title('SendTX')
 root.geometry('200x100')
 
 def ui():
-	lbl_com = tk.Label(text='com:', width=10)
-	lbl_com.pack(side=tk.LEFT)
+	lbl_com = tk.Label(text='com:')
+	lbl_com.pack()
 
 
 ui()
