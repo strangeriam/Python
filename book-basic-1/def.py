@@ -12,3 +12,7 @@ def sayHello():
   return 1
 
 sayHello()
+
+輸出:
+hello world
+1
