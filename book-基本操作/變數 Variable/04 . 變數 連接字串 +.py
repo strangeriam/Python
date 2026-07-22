@@ -8,11 +8,3 @@ print('Time: ', nowTime) # Time:  104957
 filename = 'report_' + nowTime + '.txt'
 
 print(filename) # report_104957.txt
-
-
-#===================
-port = f'3'
-aa = 'COM' + port
-print(aa)
-
-輸出: COM3
