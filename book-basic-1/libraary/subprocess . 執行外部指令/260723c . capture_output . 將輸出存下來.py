@@ -13,4 +13,23 @@ b'\r\nPing 127.0.0.1 (\xa8\xcf\xa5\xce 32 \xa6\xec\xa4\xb8\xb2\xd5\xaa\xba\xb8\x
 
 
 # ==========================
+# 輸出成字串.
+r = subprocess.run(['ping', '127.0.0.1'], capture_output=True, text=True)
+print(r.stdout)
 
+輸出:
+>>> r = subprocess.run(['ping', '127.0.0.1'], capture_output=True, text=True)
+>>> print(r.stdout)
+
+Ping 127.0.0.1 (使用 32 位元組的資料):
+回覆自 127.0.0.1: 位元組=32 時間<1ms TTL=128
+回覆自 127.0.0.1: 位元組=32 時間<1ms TTL=128
+回覆自 127.0.0.1: 位元組=32 時間<1ms TTL=128
+回覆自 127.0.0.1: 位元組=32 時間<1ms TTL=128
+
+127.0.0.1 的 Ping 統計資料:
+    封包: 已傳送 = 4，已收到 = 4, 已遺失 = 0 (0% 遺失)，
+大約的來回時間 (毫秒):
+    最小值 = 0ms，最大值 = 0ms，平均 = 0ms
+
+>>>
