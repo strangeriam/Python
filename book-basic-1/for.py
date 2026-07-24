@@ -1,3 +1,5 @@
+# (foreach also) . like foreach
+
 
 方式 A.
 papa = ['a1', 'a2', 'a3']
