@@ -16,6 +16,8 @@ fname = open('hello.log')
 content = fname.read()
 fname.close()
 
+print(content)
+
 輸出:
-Hello world!
-Bacon is not a vegetable.
+this is line 1.
+this is line 2.
