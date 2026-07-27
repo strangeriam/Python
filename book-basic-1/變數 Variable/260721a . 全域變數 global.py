@@ -4,11 +4,16 @@ root = tk.Tk()
 root.geometry('500x200')
 
 def f_change():
-	global port
-	port = a.get()
+	global port1, port2
+	port1 = a.get()
+	port2 = b.get()
 
 a = tk.StringVar()
+b = tk.StringVar()
+
 a.set('')
+b.set('')
+
 
 port = ''
 
