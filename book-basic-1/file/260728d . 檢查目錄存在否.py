@@ -1,6 +1,6 @@
 import os
 
-# 建立新目錄
+# example 建立新目錄
 os.makedirs('C:\\Users\\Rlulu\\Dropbox\\12-Office-TryTryLu\\Learning_02_Python\\test-dir-241011')
 
 
