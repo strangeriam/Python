@@ -9,6 +9,8 @@ import datetime
 
 dayTime = datetime.datetime.now().strftime('%y%m%d')
 pfile = Path.cwd() / dayTime
+# or
+pfile = Path.cwd() / (datetime.datetime.now().strftime('%y%m%d'))
 
 if pfile.exists() and pfile.is_dir():
     print("Dir Exist:", pfile)
