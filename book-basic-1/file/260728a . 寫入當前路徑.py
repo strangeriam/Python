@@ -19,12 +19,26 @@ fname = (pfile / 'hello.log')
 
 # 只寫入 1 行
 appendFile = open(fname, 'a')
-appendFile.write('this is line 1.')
+appendFile.write('this is line 1.' + '\n')
 appendFile.close()
 
 # 再寫入 2 行
 appendFile = open(fname, 'a')
-appendFile.write('this is line 2.')
-appendFile.write('this is line 3.')
+appendFile.write('this is line 2.' + '\n')
+appendFile.write('this is line 3.' + '\n')
 appendFile.close()
 
+# Step 4:
+# 讀取檔案內容.
+appendFile = open(fname)
+content = appendFile.read()
+
+# 輸出 1:
+content
+'this is line 1.\nthis is line 2.\nthis is line 3.\n'
+
+# 輸出 2:
+print(cotent)
+this is line 1.
+this is line 2.
+this is line 3.
