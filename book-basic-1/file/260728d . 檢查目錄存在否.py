@@ -1,10 +1,16 @@
-import os
-
-# example 建立新目錄
-os.makedirs('C:\\Users\\Rlulu\\Dropbox\\12-Office-TryTryLu\\Learning_02_Python\\test-dir-241011')
-
-
+# 檢查目錄是否存在, 如果不存在, 則新建立目錄.
 # 實驗前先切換到工作區.
 os.chdir('D:\\Dropbox\\14-Office-TryTryLu\\Python_01_RS232_RebootCycling')
 
+# 實驗開始.
+import os
 from pathlib import Path
+import datetime
+
+dayTime = datetime.datetime.now().strftime('%y%m%d')
+pfile = Path.cwd() / dayTime
+
+if pfile.exists() and pfile.is_dir():
+    print("Dir Exist:", pfile)
+else:
+    os.makedirs(pfile)
