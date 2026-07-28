@@ -16,9 +16,9 @@ WindowsPath('D:/Dropbox/14-Office-TryTryLu/Python_01_RS232_RebootCycling')
 # Step 3:
 # 建立可 append 的檔案.
 fname = (pfile / 'hello.log')
-appendFile = open(fname, 'a')
 
 # 只寫入 1 行
+appendFile = open(fname, 'a')
 appendFile.write('this is line 1.')
 appendFile.close()
 
