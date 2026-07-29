@@ -1,7 +1,7 @@
 # (foreach also) . like foreach
 
 
-方式 A.
+# 方式 A.
 papa = ['a1', 'a2', 'a3']
 for var1 in papa:
 	print(var1)
@@ -11,7 +11,7 @@ a2
 a3
 >>> 
 
-方式 B.
+# 方式 B.
 price_list = [('mango', 100), ('Orange', 50), ('Guava', 30), ('tomato', 70)]
 for item in price_list:
 	print(item[0], item[1])
@@ -22,7 +22,7 @@ Guava 30
 tomato 70
 >>> 
 
-方式 C.
+# 方式 C.
 price_list = [('mango', 100), ('Orange', 50), ('Guava', 30), ('tomato', 70)]
 for (fruit, price) in price_list:
 	print(fruit, price)
@@ -33,7 +33,7 @@ Guava 30
 tomato 70
 >>> 
 
-方式 D.
+# 方式 D.
 price_list = [('mango', 100), ('Orange', 50), ('Guava', 30), ('tomato', 70)]
 for fruit, price in price_list:
 	print(fruit, price)
