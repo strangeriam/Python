@@ -1,18 +1,10 @@
 
-count = 3
+count = 0
 
-for num in range():
-	if (count <= 0):
+for num in range(10):
+	if count >= 3:
 		print('Debug: BREAK ..')
 		break
 
-	count = count - 1
+	count = count + num
 	print('count:', count)
-
-
-count = 1
-
-if (count == 5):
-    break
-
-count += 1
