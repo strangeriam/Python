@@ -25,5 +25,12 @@ subprocess.run(['SnmpSet.exe', '-r:192.168.0.200', '-c:public', '-o:.1.3.6.1.4.1
 
 # 讀取 A/B 資訊.
 r = subprocess.run(['SnmpGet.exe', '-r:192.168.0.200', '-o:.1.3.6.1.4.1.17420.1.2.9.1.13.0'], capture_output=True, text=True)
-
 print(r.stdout)
+
+輸出:
+SnmpGet v1.01 - Copyright (C) 2009 SnmpSoft Company
+[ More useful network tools on http://www.snmpsoft.com ]
+
+OID=.1.3.6.1.4.1.17420.1.2.9.1.13.0
+Type=OctetString
+Value=1,0,-1,-1,-1,-1,-1,-1
