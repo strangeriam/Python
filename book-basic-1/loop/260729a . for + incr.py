@@ -1,8 +1,13 @@
 
 count = 3
 
-for fruit, price in price_list:
-	print(fruit, price)
+for num in range():
+	if (count <= 0):
+		print('Debug: BREAK ..')
+		break
+
+	count = count - 1
+	print('count:', count)
 
 
 count = 1
