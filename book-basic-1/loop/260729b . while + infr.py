@@ -1,4 +1,4 @@
-# This loop will run forever until it hits a 'break'
+# Lu-260729: No work under SHELL
 
 count = 0
 
