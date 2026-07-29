@@ -1,4 +1,4 @@
-# Lu-260729: No work
+# Lu-260729: No work under SHELL
 
 count = 0
 
