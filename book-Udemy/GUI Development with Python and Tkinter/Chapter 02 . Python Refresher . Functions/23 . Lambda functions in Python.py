@@ -1,41 +1,24 @@
 
 ;# Code A
-;# =======
 def add(x, y):
 	return x + y
 
 print(add(5, 7))
-
-;# OUTPUT
-12
-
+# OUTPUT: 12
 
 ;# Code B
-;# =======
 add = lambda x, y: x + y
 print(add(5, 7))
-
-;# OUTPUT
-12
-
+# OUTPUT: 12
 
 ;# Code C
-;# =======
 print((lambda x, y: x + y)(5,7))
-
-;# OUTPUT
-12
-
+# OUTPUT: 12
 
 ;# Code D
-;# =======
-
 sequence = [1, 3, 5 ,9]
 doubled = [(lambda x: x * 2)(x) for x in sequence]
 doubled = list(map(lambda x: x * 2, sequence))
-
 print(doubled)
-
-
-;# OUTPUT
+# OUTPUT
 [2, 6, 10, 18]
