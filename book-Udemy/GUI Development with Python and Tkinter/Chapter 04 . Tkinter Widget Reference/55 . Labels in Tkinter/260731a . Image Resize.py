@@ -10,6 +10,7 @@ root.geometry("600x400")
 root.resizable(False, False)
 root.title("Widget Example")
 
+# 調整為 64x64 的正方形.
 image = Image.open("bordercollieS.png").resize((64, 64))
 # image = Image.open("bordercollieS.png")
 photo = ImageTk.PhotoImage(image)
