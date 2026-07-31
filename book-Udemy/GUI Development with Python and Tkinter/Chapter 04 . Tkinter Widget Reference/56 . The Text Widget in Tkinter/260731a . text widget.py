@@ -10,7 +10,8 @@ root.geometry("600x400")
 root.resizable(False, False)
 root.title("Widget Example")
 
-
+text = tk.Text(root, height=8)
+text.pack()
 
 
 root.mainloop()
