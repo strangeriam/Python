@@ -1,5 +1,8 @@
 # 切換 fping.exe 工作路徑
-# Path: D:\Dropbox\14-Office-TryTryLu\Python_01_RS232_RebootCycling\include\
+# Path: D:\Dropbox\14-Office-TryTryLu\Python_01_RS232_RebootCycling\
+# 然後再進入 fping.exe 所在的子目錄 include\ 來執行 fping.exe
+
+
 
 import os
 os.chdir('D:\\BeeStation\\03_python_project\\250414_mouseScreenControl\\Material')
