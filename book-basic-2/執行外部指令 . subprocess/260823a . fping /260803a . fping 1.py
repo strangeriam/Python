@@ -7,9 +7,8 @@ import subprocess
 from pathlib import Path
 
 subprocess.run(['D:\\Dropbox\\14-Office-TryTryLu\\Python_01_RS232_RebootCycling\\fping.exe', '127.0.0.1', '-n', '2'])
-# 輸出
->>> subprocess.run(['D:\\Dropbox\\14-Office-TryTryLu\\Python_01_RS232_RebootCycling\\fping.exe', '127.0.0.1', '-n', '2'])
 
+# 輸出
 Fast pinger version 3.00
 (c) Wouter Dhondt (http://www.kwakkelflap.com)
 
@@ -25,26 +24,3 @@ Approximate round trip times in milli-seconds:
 CompletedProcess(args=['D:\\Dropbox\\14-Office-TryTryLu\\Python_01_RS232_RebootCycling\\fping.exe', '127.0.0.1', '-n', '2'], returncode=0)
 >>>
 
-# 建立 路徑變數 縮短指令長度.
-os.chdir('D:\\Dropbox\\14-Office-TryTryLu\\Python_01_RS232_RebootCycling\\')
-ENVPATH = Path.cwd()
-
-subprocess.run(['fping.exe', '127.0.0.1', '-n', '2'])
-
-
-輸出:
->>> import subprocess
->>> subprocess.run(['ping', '127.0.0.1'])
-
-Ping 127.0.0.1 (使用 32 位元組的資料):
-回覆自 127.0.0.1: 位元組=32 時間<1ms TTL=128
-回覆自 127.0.0.1: 位元組=32 時間<1ms TTL=128
-回覆自 127.0.0.1: 位元組=32 時間<1ms TTL=128
-回覆自 127.0.0.1: 位元組=32 時間<1ms TTL=128
-
-127.0.0.1 的 Ping 統計資料:
-    封包: 已傳送 = 4，已收到 = 4, 已遺失 = 0 (0% 遺失)，
-大約的來回時間 (毫秒):
-    最小值 = 0ms，最大值 = 0ms，平均 = 0ms
-CompletedProcess(args=['ping', '127.0.0.1'], returncode=0)
->>>
