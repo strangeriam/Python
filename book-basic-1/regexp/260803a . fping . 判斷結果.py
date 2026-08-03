@@ -18,6 +18,8 @@ Approximate round trip times in milli-seconds:
 get_info = """
 Fast pinger version 3.00
 (c) Wouter Dhondt (http://www.kwakkelflap.com)
+
+Pinging 192.168.0.200 with 32 bytes of data every 1000 ms:
 BBB
 CCC
 """
