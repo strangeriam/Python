@@ -16,7 +16,8 @@ Approximate round trip times in milli-seconds:
 
 
 get_info = """
-AAA
+Fast pinger version 3.00
+(c) Wouter Dhondt (http://www.kwakkelflap.com)
 BBB
 CCC
 """
