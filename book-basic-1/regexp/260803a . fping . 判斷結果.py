@@ -1,4 +1,10 @@
+import re
+re.compile(r'\d\d\d-\d\d\d-\d\d\d\d')
 
+re.complile(r'Packets:')
+
+
+# ====================================================
 get_info = """
 Fast pinger version 3.00
 (c) Wouter Dhondt (http://www.kwakkelflap.com)
