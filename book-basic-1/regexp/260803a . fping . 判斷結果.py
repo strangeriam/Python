@@ -1,4 +1,4 @@
-get_info = "
+get_info = """
 Fast pinger version 3.00
 (c) Wouter Dhondt (http://www.kwakkelflap.com)
 
@@ -12,4 +12,4 @@ Ping statistics for 192.168.0.200:
         Packets: Sent = 3, Received = 3, Lost = 0 (0% loss)
 Approximate round trip times in milli-seconds:
         Minimum = 1.0 ms, Maximum = 22.2 ms, Average = 8.2 ms
-"
+"""
