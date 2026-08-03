@@ -7,3 +7,11 @@ BBB
 CCC
 """
 
+# WAY 2
+# =====
+get_info = (
+DDD
+EEE
+FFF
+)
+
