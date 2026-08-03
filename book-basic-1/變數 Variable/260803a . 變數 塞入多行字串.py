@@ -6,12 +6,27 @@ AAA
 BBB
 CCC
 """
+# 輸出:
+>>> print(get_info)
+
+AAA
+BBB
+CCC
+
+>>>
+
 
 # WAY 2
 # =====
 get_info = (
-DDD
-EEE
-FFF
+'DDD'
+'EEE'
+'FFF'
 )
+
+# 輸出:
+>>> print(get_info)
+DDDEEEFFF
+>>>
+
 
