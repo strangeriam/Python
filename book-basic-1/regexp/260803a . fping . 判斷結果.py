@@ -20,7 +20,12 @@ Fast pinger version 3.00
 (c) Wouter Dhondt (http://www.kwakkelflap.com)
 
 Pinging 192.168.0.200 with 32 bytes of data every 1000 ms:
-BBB
+
+Reply[1] from 192.168.0.200: bytes=32 time=22.2 ms TTL=100
+Reply[2] from 192.168.0.200: bytes=32 time=1.5 ms TTL=100
+Reply[3] from 192.168.0.200: bytes=32 time=1.0 ms TTL=100
+
+Ping statistics for 192.168.0.200:
 CCC
 """
 print(get_info)
