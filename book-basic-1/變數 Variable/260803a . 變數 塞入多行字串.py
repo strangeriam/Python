@@ -15,7 +15,6 @@ CCC
 
 >>>
 
-
 # WAY 2
 # =====
 get_info = (
@@ -28,5 +27,17 @@ get_info = (
 >>> print(get_info)
 DDDEEEFFF
 >>>
+
+# WAY 3
+get_info = \
+"GGG" \
+"HHH" \
+"III"
+
+# 輸出:
+>>> print(get_info)
+GGGHHHIII
+>>>
+
 
 
