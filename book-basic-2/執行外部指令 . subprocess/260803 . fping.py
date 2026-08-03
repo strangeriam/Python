@@ -3,11 +3,13 @@
 # 然後再進入 fping.exe 所在的子目錄 include\ 來執行 fping.exe
 
 import os
+import subprocess
 from pathlib import Path
+
 os.chdir('D:\\Dropbox\\14-Office-TryTryLu\\Python_01_RS232_RebootCycling\\')
 ENVPATH = Path.cwd()
 
-import subprocess
+
 subprocess.run(['ping', '127.0.0.1'])
 
 
