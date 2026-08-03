@@ -13,3 +13,11 @@ Ping statistics for 192.168.0.200:
 Approximate round trip times in milli-seconds:
         Minimum = 1.0 ms, Maximum = 22.2 ms, Average = 8.2 ms
 """
+
+
+get_info = """
+AAA
+BBB
+CCC
+"""
+print(get_info)
