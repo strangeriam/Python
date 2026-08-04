@@ -3,4 +3,5 @@
 
 import include.apc as _f_apc_info
 
-# 下以上這行即可.
+# 讀入 位在 include/apc.py 的 _f_apc_info & _f_apc_power.
+import include.apc as _f_apc_info, _f_apc_power
