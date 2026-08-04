@@ -1,8 +1,6 @@
+# 讀入 位在 include/apc.py 的 _f_apc_info.
+# 要使用 _f_apc_info 的功能.
 
-# commpy.py
-def talk(msg):
-  print(msg)
+import include.apc as _f_apc_info
 
-# main.py
-import ok
-common.talk('hi')   # hi
+# 下以上這行即可.
