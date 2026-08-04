@@ -1,9 +1,17 @@
 # 切換 fping.exe 工作路徑, 操作實驗.
 # Path: D:\Dropbox\14-Office-TryTryLu\Python_01_RS232_RebootCycling\
-
 import os
-import subprocess
 from pathlib import Path
+
+os.chdir('D:\\Dropbox\\14-Office-TryTryLu\\Python_01_RS232_RebootCycling\\')
+ENVPATH = Path.cwd()
+
+# 定義 fping.exe 所在路徑.
+pFping = Path(ENVPATH \\ include)
+
+
+
+import subprocess
 
 ENVPATH = Path('D:\\Dropbox\\14-Office-TryTryLu\\Python_01_RS232_RebootCycling')
 
